@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head><link rel=manifest href=/manifest.json><meta name="generator" content="Hexo 3.8.0"><link rel="manifest" href="/manifest.json">
+
+    <!-- hexo-inject:begin --><script src='https://unpkg.com/echarts@3.3.2/dist/echarts.min.js'></script><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="墨问非名">
+
+
+    
+    
+
+
+<meta name="description" content="墨问非名的Hexo博客">
+<meta name="keywords" content="墨问非名">
+<meta property="og:type" content="website">
+<meta property="og:title" content="非名榭">
+<meta property="og:url" content="https://underdream.github.io/page/19/index.html">
+<meta property="og:site_name" content="非名榭">
+<meta property="og:description" content="墨问非名的Hexo博客">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="非名榭">
+<meta name="twitter:description" content="墨问非名的Hexo博客">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="非名榭" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <style> .article { opacity: 0;} </style>
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>非名榭</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: true,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+
+
+
+</head></html>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/uploads/avatar.jpg" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">墨问非名</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">墨问非名的Hexo博客</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true">
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class="no-result">No results found <i class="fa fa-spinner fa-pulse"></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/archives/">归档</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                            
+                                <a class="fa 新浪微博" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                            
+                                <a class="fa GitHub" href="https://github.com/Alicewish" title="GitHub"></a>
+                            
+                                <a class="fa V2EX" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                            
+                                <a class="fa 豆瓣" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                            
+                                <a class="fa 简书" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                            
+                                <a class="fa Coding" href="https://coding.net/u/alicewish" title="Coding"></a>
+                            
+                                <a class="fa bilibili" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                            
+                                <a class="fa Google" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                            
+                                <a class="fa Twitter" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                            
+                                <a class="fa LOFTER" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                            
+                        </ul>
+                        
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/action-lab/">Action Lab</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/after-story/">After Story</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bombshells/">Bombshells</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/comixology/">ComiXology</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dc/">DC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dark-horse/">Dark Horse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/earth-2-society/">Earth 2 Society</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/exorsisters/">Exorsisters</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-academy/">Gotham Academy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-city-garage/">Gotham City Garage</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/heart-in-a-box/">Heart in a Box</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/image/">Image</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice/">Injustice</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-ground-zero/">Injustice - Ground Zero</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-2/">Injustice 2</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-vs-masters-of-the-universe/">Injustice Vs. Masters of the Universe</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">Mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/marvel/">Marvel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/naomi/">Naomi</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/savior/">Savior</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/simple-comic/">Simple Comic</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/superior-iron-man/">Superior Iron Man</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/talk-to-me/">Talk to Me</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/the-stone-king/">The Stone King</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tim-seeley/">Tim Seeley</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tomboy/">Tomboy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unnatural/">Unnatural</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wango/">Wango</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wayward/">Wayward</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fhey/">fhey</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/不义联盟/">不义联盟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/修图/">修图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/图源/">图源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/填字/">填字</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/梦境/">梦境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/欧路词典/">欧路词典</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/汉化/">汉化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生肉/">生肉</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/科学技术/">科学技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/说明/">说明</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/资源/">资源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/输入法/">输入法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/销量/">销量</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>
+                    
+</div>
+    </div>
+    <div class="hide-left-col" title="隐藏侧栏">
+        <i class="fa fa-angle-double-left"></i>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <!-- <a href="/" title="回到主页">墨问非名</a> -->
+          <h1 class="header-author js-mobile-header hide">墨问非名</h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/uploads/avatar.jpg" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">墨问非名</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">墨问非名的Hexo博客</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/archives/">归档</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <ul class="social">
+                    
+                        <a class="fa Email" target="_blank" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                    
+                        <a class="fa 新浪微博" target="_blank" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                    
+                        <a class="fa GitHub" target="_blank" href="https://github.com/Alicewish" title="GitHub"></a>
+                    
+                        <a class="fa V2EX" target="_blank" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                    
+                        <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                    
+                        <a class="fa 知乎" target="_blank" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                    
+                        <a class="fa 豆瓣" target="_blank" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                    
+                        <a class="fa 简书" target="_blank" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                    
+                        <a class="fa Coding" target="_blank" href="https://coding.net/u/alicewish" title="Coding"></a>
+                    
+                        <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                    
+                        <a class="fa Google" target="_blank" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                    
+                        <a class="fa Twitter" target="_blank" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                    
+                        <a class="fa LOFTER" target="_blank" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
+</nav>
+      <div class="body-wrap">
+  
+    <article id="post-lieyue-tutorial-1" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/tutorial/lieyue/lieyue-tutorial-1/" class="article-date">
+      <time datetime="2013-02-28T02:24:12.000Z" itemprop="datePublished">2013-02-27</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/tutorial/lieyue/lieyue-tutorial-1/">洌月-美漫汉化入门1.0</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">6,934字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">24分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h2 id="【前言】"><a href="#【前言】" class="headerlink" title="【前言】"></a>【前言】</h2><p>写这个教程的起因是一封来自 @海老师个萝卜嘞 的微博私信，问我哪里可以找到汉化教程。查了一下网上的镶字教程多为日漫，借此机会也想为各位想汉化推广自己心爱的美漫的亲们提供一些自己的汉化心得。  </p>
+<p>首先，汉化这个行为虽然属于非营利行为，但我相信亲们肯定是出于对自己汉化作品的爱才选择投入精力去参与这个活动。决定要做，不一定水平多么高，质量多么好，但唯一的一点，态度绝对要认真，如果马马虎虎敷衍了事，那不如不做。<strong>对自己的汉化作品负责，也就是对你自己负责。</strong>  </p>
+<p>汉化没有所谓的标准步骤可言，当然在接触汉化初期可能是有的，但在长时间的制作实践中每个人都会总结出自己的一套方法。可能不是最好的，但肯定是自己用起来最顺手且效率的。故而这篇入门充其量也就是一个引子，重要的是让亲们了解汉化大概有哪些步骤，及最终要达到一个什么样的效果，在知其所以然的前提下自行选择及简化，在实际操作中摸索出属于自己的方法。多说无益，下面进入正题。  </p>
+<h2 id="【步骤一：图源】"><a href="#【步骤一：图源】" class="headerlink" title="【步骤一：图源】"></a>【步骤一：图源】</h2><p>如何寻找图源？相信喜爱美漫的你对国内的资源圈已经轻车熟路，故此不再赘述。这里我列举几个自己常用的外网资源站。  </p>
+<h4 id="连载中新刊"><a href="#连载中新刊" class="headerlink" title="*连载中新刊"></a>*连载中新刊</h4><ol>
+<li><a href="http://hankscorpio.info/comics/browse2/" target="_blank" rel="noopener">http://hankscorpio.info/comics/browse2/</a>  </li>
+</ol>
+<p>这个网站一般会放出当周的最新连载，速度相当快，且分流地址多，对追连载的亲十分  </p>
+<p>有用。不过和某些浏览器会出现兼容性问题，所以推荐使用自带IE打开。  </p>
+<ol start="2">
+<li><p><a href="http://avaxhome.bz/comics" target="_blank" rel="noopener">http://avaxhome.bz/comics</a>  </p>
+</li>
+<li><p><a href="http://mycomicpost.com/" target="_blank" rel="noopener">http://mycomicpost.com/</a>  </p>
+</li>
+</ol>
+<p>这两个网站也能找到新连载，同时能找到随机发布的旧刊。  </p>
+<p>一般在北京时间周三深夜至周四凌晨我会刷这三个网站等当周的新刊图源发布，哪个网站抢得先手每周都有不同，所以多刷新刷新会获得意外惊喜。  </p>
+<h4 id="完结旧刊"><a href="#完结旧刊" class="headerlink" title="* 完结旧刊"></a>* 完结旧刊</h4><p>在知道自己想找的刊物英文名的基础上搜索。如果寻找特定的话数，如XXX的第01话，输入XXX 01搜索不到的话请试试XXX 001，再没有就换个站搜吧。另一种情况，如果要找的旧刊和连载中刊物重名，搜索时前几页全是新刊的情况下，请在后面加上年份再搜索试试。例如：XXX 01 1960。  </p>
+<ol>
+<li><a href="http://thepiratebay.se/" target="_blank" rel="noopener">http://thepiratebay.se/</a>  </li>
+</ol>
+<p>大名鼎鼎的海盗湾。  </p>
+<ol start="2">
+<li><a href="http://www.general-files.com/" target="_blank" rel="noopener">http://www.general-files.com/</a>  </li>
+</ol>
+<p>个人相当喜欢这个资源站，速度相当快，但在国内貌似略纠结。  </p>
+<ol start="3">
+<li><p><a href="http://www.filecrop.com/" target="_blank" rel="noopener">http://www.filecrop.com/</a>  </p>
+</li>
+<li><p><a href="http://www.bergfiles.com/" target="_blank" rel="noopener">http://www.bergfiles.com/</a>  </p>
+</li>
+<li><p><a href="http://rapidlibrary.com/" target="_blank" rel="noopener">http://rapidlibrary.com/</a>  </p>
+</li>
+<li><p><a href="http://sharethefiles.com/forum/azlists.php?cat=azebkcomics" target="_blank" rel="noopener">http://sharethefiles.com/forum/azlists.php?cat=azebkcomics</a>  </p>
+</li>
+</ol>
+<p>【6】这个网站中你能找到绝大多数的旧刊，但它都是ed2k资源，需要极大的耐心。  </p>
+<p>类似的资源站还有很多，在一个站找不到想要的刊请不要灰心，点开下一个说不定就会有希望。寻找旧刊和寻宝一样，需要付出耐心与努力，且并不是每次都能收获回报，但找全自己想要的漫画时收获的喜悦也是巨大的。  </p>
+<h3 id="【步骤二：调图】"><a href="#【步骤二：调图】" class="headerlink" title="【步骤二：调图】"></a>【步骤二：调图】</h3><p>自这一步开始我们就要用到Photoshop了，这个软件的具体安装过程我也不再多言。当然，有亲表示可以用画图工具或者美图秀秀涂白镶字……咳，也不是不可以，但平心而论用PS是最方便快捷的（当然不排除只是我对那两个工具不熟这个可能性）。  </p>
+<p>对于现在连载中的新刊来说，调图基本上只需要修改它的大小和分辨率。（旧刊的调图还包括修改偏色修正图源等，所需篇幅巨大，在这个入门教程中不再介绍。）  </p>
+<p>以Grifter Midnighter01为例。我们下载到如下图源：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8mnoiyj20bj00ljrb.jpg" alt="pastedGraphic.png">  </p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/tutorial/">Tutorial</a><a class="article-category-link" href="/categories/tutorial/lieyue/">Lieyue</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/修图/">修图</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/填字/">填字</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/tutorial/lieyue/lieyue-tutorial-1/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-comic-book-lettering-comicraft-way" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/other/comic-book-lettering-comicraft-way/" class="article-date">
+      <time datetime="2012-05-02T06:53:08.000Z" itemprop="datePublished">2012-05-02</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/other/comic-book-lettering-comicraft-way/">Comic Book Lettering The Comicraft Way</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">52字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">1分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>Comic Book Lettering The Comicraft Way<br>68 pages!<br>From the award-winning Comicraft studio, this full-color, step-by-step guide of comic book lettering tips and tricks is superbly illustrated with two Hip Flask strips - one by Kurt Busiek and Stuart Immonen, and the other by Jeph Loeb and Ian Churchill!<br><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f7rht5i70sj20tt19uqnh" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/other/">Other</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/填字/">填字</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生肉/">生肉</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/科学技术/">科学技术</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/other/comic-book-lettering-comicraft-way/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-slash-glossary" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/note/slash/slash-glossary/" class="article-date">
+      <time datetime="2010-06-05T01:18:02.000Z" itemprop="datePublished">2010-06-04</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/note/slash/slash-glossary/">西方同人术语汇集(Slash Glossary)</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">971字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">4分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>转载自：<a href="https://opengoal.livejournal.com/71032.html" target="_blank" rel="noopener">https://opengoal.livejournal.com/71032.html</a>  </p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/note/">Note</a><a class="article-category-link" href="/categories/note/slash/">Slash</a>
+    </div>
+
+
+      
+      
+        <p class="article-more-link">
+          <a href="/post/note/slash/slash-glossary/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/page/18/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/17/">17</a><a class="page-number" href="/page/18/">18</a><span class="page-number current">19</span>
+    </nav>
+  
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2015-2019 墨问非名
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_uv" style="display:none">
+                        <span id="site-visit_uv" title="本站访客数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" style="display:none">
+                        <span id="site-visit_pv" title="本站总访问量">
+                            
+								<span>| </span>
+							
+							<i class="fa fa-eye animated infinite pulser" aria-hidden="true"></i>
+							<span id="busuanzi_value_site_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    <script type="application/javascript">
+      var hide = false, leftWidth = 400;
+      function hideLeftCol() {
+        if (hide) {
+          $(".left-col").width(leftWidth);
+          $(".left-col .intrude-less").css('display', '');
+          $("#tocButton").css('display', '');
+          ($('#switch-btn').css('display') === 'block' && $('#switch-area').css('display') === 'block') || $('#toc').slideDown(320);
+          $(".hide-left-col").css("left", leftWidth).html('<i class="fa fa-angle-double-left"></i>');
+          $(".mid-col").css("left", leftWidth)
+          $("#post-nav-button").css("left", leftWidth)
+          $("#post-nav-button > a:nth-child(2)").css("display", "block")
+          hide = false
+        } else {
+          $(".left-col").width(0);
+          $(".left-col .intrude-less").css('display', 'none');
+          $("#toc").css('display', 'none');
+          $("#tocButton").css('display', 'none');
+          $(".hide-left-col").css("left", 0).html('<i class="fa fa-angle-double-right"></i>');
+          $(".mid-col").css("left", 0)
+          $("#post-nav-button").css("left", 0)
+          $("#post-nav-button > a:nth-child(2)").css("display", "none")
+          if ($(".post-list").is(":visible")) {
+            $("#post-nav-button .fa-bars,#post-nav-button .fa-times").toggle();
+            $(".post-list").toggle();
+          }
+          hide = true
+        }
+      }
+      $(".hide-left-col").click(function() {
+        hideLeftCol()
+      });
+    </script>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 6;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+    
+
+     
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+             github: ".github-widget a", 
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+  </div>
+<script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1550481657402')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body>
+</html>

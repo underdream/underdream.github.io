@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head><link rel=manifest href=/manifest.json><meta name="generator" content="Hexo 3.8.0"><link rel="manifest" href="/manifest.json">
+
+    <!-- hexo-inject:begin --><script src='https://unpkg.com/echarts@3.3.2/dist/echarts.min.js'></script><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="墨问非名">
+
+
+
+<meta name="description" content="_config.yml此配置为个人使用，仅供参考。为方便维护，fork了Yelee并改名为Velee。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo博客Yelee主题配置">
+<meta property="og:url" content="https://underdream.github.io/post/writing/hexo/hexo-theme-yelee-config/index.html">
+<meta property="og:site_name" content="非名榭">
+<meta property="og:description" content="_config.yml此配置为个人使用，仅供参考。为方便维护，fork了Yelee并改名为Velee。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-06-13T01:18:02.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo博客Yelee主题配置">
+<meta name="twitter:description" content="_config.yml此配置为个人使用，仅供参考。为方便维护，fork了Yelee并改名为Velee。">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="非名榭" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>Hexo博客Yelee主题配置 | 非名榭</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+
+
+
+</head></html>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/uploads/avatar.jpg" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">墨问非名</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">墨问非名的Hexo博客</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true">
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class="no-result">No results found <i class="fa fa-spinner fa-pulse"></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/archives/">归档</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                            
+                                <a class="fa 新浪微博" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                            
+                                <a class="fa GitHub" href="https://github.com/Alicewish" title="GitHub"></a>
+                            
+                                <a class="fa V2EX" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                            
+                                <a class="fa 豆瓣" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                            
+                                <a class="fa 简书" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                            
+                                <a class="fa Coding" href="https://coding.net/u/alicewish" title="Coding"></a>
+                            
+                                <a class="fa bilibili" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                            
+                                <a class="fa Google" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                            
+                                <a class="fa Twitter" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                            
+                                <a class="fa LOFTER" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                            
+                        </ul>
+                        
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/action-lab/">Action Lab</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/after-story/">After Story</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bombshells/">Bombshells</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/comixology/">ComiXology</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dc/">DC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dark-horse/">Dark Horse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/earth-2-society/">Earth 2 Society</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/exorsisters/">Exorsisters</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-academy/">Gotham Academy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-city-garage/">Gotham City Garage</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/heart-in-a-box/">Heart in a Box</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/image/">Image</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice/">Injustice</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-ground-zero/">Injustice - Ground Zero</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-2/">Injustice 2</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-vs-masters-of-the-universe/">Injustice Vs. Masters of the Universe</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">Mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/marvel/">Marvel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/naomi/">Naomi</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/savior/">Savior</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/simple-comic/">Simple Comic</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/superior-iron-man/">Superior Iron Man</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/talk-to-me/">Talk to Me</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/the-stone-king/">The Stone King</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tim-seeley/">Tim Seeley</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tomboy/">Tomboy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unnatural/">Unnatural</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wango/">Wango</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wayward/">Wayward</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fhey/">fhey</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/不义联盟/">不义联盟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/修图/">修图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/图源/">图源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/填字/">填字</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/梦境/">梦境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/欧路词典/">欧路词典</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/汉化/">汉化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生肉/">生肉</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/科学技术/">科学技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/说明/">说明</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/资源/">资源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/输入法/">输入法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/销量/">销量</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>
+                    
+</div>
+    </div>
+    <div class="hide-left-col" title="隐藏侧栏">
+        <i class="fa fa-angle-double-left"></i>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <!-- <a href="/" title="回到主页">墨问非名</a> -->
+          <h1 class="header-author js-mobile-header hide">墨问非名</h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/uploads/avatar.jpg" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">墨问非名</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">墨问非名的Hexo博客</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/archives/">归档</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <ul class="social">
+                    
+                        <a class="fa Email" target="_blank" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                    
+                        <a class="fa 新浪微博" target="_blank" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                    
+                        <a class="fa GitHub" target="_blank" href="https://github.com/Alicewish" title="GitHub"></a>
+                    
+                        <a class="fa V2EX" target="_blank" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                    
+                        <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                    
+                        <a class="fa 知乎" target="_blank" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                    
+                        <a class="fa 豆瓣" target="_blank" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                    
+                        <a class="fa 简书" target="_blank" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                    
+                        <a class="fa Coding" target="_blank" href="https://coding.net/u/alicewish" title="Coding"></a>
+                    
+                        <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                    
+                        <a class="fa Google" target="_blank" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                    
+                        <a class="fa Twitter" target="_blank" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                    
+                        <a class="fa LOFTER" target="_blank" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
+</nav>
+      <div class="body-wrap"><article id="post-hexo-theme-yelee-config" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/writing/hexo/hexo-theme-yelee-config/" class="article-date">
+      <time datetime="2018-06-13T01:18:02.000Z" itemprop="datePublished">2018-06-12</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo博客Yelee主题配置
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">2,149字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">11分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        	<br>
+        	<br>
+        
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/writing/">Writing</a><a class="article-category-link" href="/categories/writing/hexo/">Hexo</a>
+    </div>
+
+
+        
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css"><h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a><code>_config.yml</code></h2><p>此配置为个人使用，仅供参考。<br>为方便维护，fork了<code>Yelee</code>并改名为<code>Velee</code>。  </p>
+<a id="more"></a>  
+<p>在<code>themes/yelee/layout/_partial/head.ejs</code>中，注意到<code>search: &lt;%= theme.search.on %&gt;</code>，所以：<br>在以下配置中打开<code>on</code>选项才可以正常使用主题。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Local Site Search | 本地站内搜索</span></span><br><span class="line"><span class="comment">## Insatall below plugin to take effect | 使用搜索需先安装对应插件</span></span><br><span class="line"><span class="comment">## https://github.com/PaicHyperionDev/hexo-generator-search</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  onload:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">## true: get search.xml file when the page has loaded</span></span><br><span class="line">  <span class="comment">## false: get the file when search box gets focus</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Theme Version | 当前版本</span></span><br><span class="line"><span class="attr">Yelee:</span> <span class="string">"3.5"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># &gt;&gt;&gt; Basic Setup | 基础设置 &lt;&lt;&lt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Header | 主菜单</span></span><br><span class="line"><span class="comment">## About Page: `hexo new page about`</span></span><br><span class="line"><span class="comment">## Tags Cloud Page: `hexo new page tags`</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line"><span class="comment">#  主页: /</span></span><br><span class="line">  <span class="string">归档:</span> <span class="string">/archives/</span></span><br><span class="line">  <span class="string">标签云:</span> <span class="string">/tags/</span></span><br><span class="line">  <span class="string">关于我:</span> <span class="string">/about/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Link to your avatar | 填写头像地址</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">/uploads/avatar.jpg</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Small icon of Your site | 站点小图标地址</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.ico</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Internationalization | 主题语言</span></span><br><span class="line"><span class="comment">## Change Language in SITE's _config.yml | 在站点配置中切换语言</span></span><br><span class="line"><span class="comment">## https://hexo.io/docs/internationalization.html</span></span><br><span class="line"><span class="comment">## Available Languages: en, zh-Hans, zh-Hant-TW, zh-Hant-HK</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Subdirectory | 子目录</span></span><br><span class="line"><span class="comment">## If your site' url is 'http://yoursite.com/blog', set root_url as '/blog/'</span></span><br><span class="line"><span class="comment">## 网站若存放在子目录，请按上面格式填写</span></span><br><span class="line"><span class="comment">## https://hexo.io/docs/configuration.html#URL</span></span><br><span class="line"><span class="attr">root_url:</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Year of Site Creation | 网站成立年份</span></span><br><span class="line"><span class="attr">since:</span> <span class="number">2015</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Social info. Bar | 社交信息展示</span></span><br><span class="line"><span class="comment">## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"</span></span><br><span class="line"><span class="comment">## Encrypt email 加密邮件地址 http://ctrlq.org/encode/</span></span><br><span class="line"><span class="comment">## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件</span></span><br><span class="line"><span class="comment">## https://github.com/hexojs/hexo-generator-feed</span></span><br><span class="line"></span><br><span class="line"><span class="attr">subnav:</span></span><br><span class="line"><span class="attr">  Email:</span> <span class="string">"mailto:anywaywillgo@gmail.com"</span></span><br><span class="line">  <span class="string">新浪微博:</span> <span class="string">"http://weibo.com/alicewish"</span></span><br><span class="line"><span class="attr">  GitHub:</span> <span class="string">"https://github.com/Alicewish"</span></span><br><span class="line"><span class="attr">  V2EX:</span> <span class="string">"https://www.v2ex.com/member/Alicewish"</span></span><br><span class="line"><span class="attr">  RSS:</span> <span class="string">"/atom.xml"</span></span><br><span class="line">  <span class="string">知乎:</span> <span class="string">"http://www.zhihu.com/people/mo-wen-fei-ming"</span></span><br><span class="line">  <span class="string">豆瓣:</span> <span class="string">"http://douban.com/people/Alicewish"</span></span><br><span class="line">  <span class="string">简书:</span> <span class="string">"http://www.jianshu.com/u/5d98f0cc5d37"</span></span><br><span class="line">  <span class="comment">#SegmentFault: ""</span></span><br><span class="line">  <span class="comment">#博客园: "cnblogs"</span></span><br><span class="line">  <span class="comment">#CSDN: ""</span></span><br><span class="line"><span class="attr">  Coding:</span> <span class="string">"https://coding.net/u/alicewish"</span></span><br><span class="line">  <span class="comment">#网易云音乐: "netease"</span></span><br><span class="line">  <span class="comment">#虾米音乐: "xiami"</span></span><br><span class="line"><span class="attr">  bilibili:</span> <span class="string">"https://space.bilibili.com/2329324/#/"</span></span><br><span class="line">  <span class="comment">#AcFun: ""</span></span><br><span class="line">  <span class="comment">#niconico: ""</span></span><br><span class="line">  <span class="comment">#Quora: ""</span></span><br><span class="line">  <span class="comment">#Facebook: "#"</span></span><br><span class="line"><span class="attr">  Google:</span> <span class="string">"https://plus.google.com/anywaywillgo"</span></span><br><span class="line"><span class="attr">  Twitter:</span> <span class="string">"https://twitter.com/AnyWayWillGo"</span></span><br><span class="line">  <span class="comment">#LinkedIn: "#"</span></span><br><span class="line">  <span class="comment">#QQ: "#"</span></span><br><span class="line">  <span class="comment">#微信: "Wechat"</span></span><br><span class="line">  <span class="comment">#PayPal: "#"</span></span><br><span class="line">  <span class="comment">#StackOverflow: "#"</span></span><br><span class="line">  <span class="comment">#CodePen: ""</span></span><br><span class="line">  <span class="comment">#Plunker: ""</span></span><br><span class="line">  <span class="comment">#Instagram: "#"</span></span><br><span class="line"><span class="attr">  LOFTER:</span> <span class="string">"http://underdream.lofter.com/"</span></span><br><span class="line">  <span class="comment">#Flickr: "#"</span></span><br><span class="line">  <span class="comment">#reddit: ""</span></span><br><span class="line">  <span class="comment">#Medium: ""</span></span><br><span class="line">  <span class="comment">#TiddlyWiki: ""</span></span><br><span class="line">  <span class="comment">#Tumblr: ""</span></span><br><span class="line">  <span class="comment">#_500px: ""</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># &gt;&gt;&gt; Conments 评论系统 &lt;&lt;&lt;</span></span><br><span class="line"><span class="comment"># Chose ONE as your comment system and keep others disable.</span></span><br><span class="line"><span class="comment"># 选一个作为网站评论系统，其他保持禁用。</span></span><br><span class="line"></span><br><span class="line"><span class="attr">preload_comment:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">## false: 当点击评论条等区域时再加载评论模块</span></span><br><span class="line"><span class="comment">## false: load comment's section until u click/hover on the bar/icon</span></span><br><span class="line"></span><br><span class="line"><span class="attr">show_count:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">## 是否在主页文章标题旁显示评论数（多说、Disqus）</span></span><br><span class="line"><span class="comment">## Add comment count after article title</span></span><br><span class="line"></span><br><span class="line"><span class="attr">disqus:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  shortname:</span> <span class="string">alicewish</span></span><br><span class="line">  <span class="comment"># https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-</span></span><br><span class="line">  <span class="comment"># It is unnecessary to enable disqus here if</span></span><br><span class="line">  <span class="comment"># you have set "disqus_shortname" in your site's "_config.yml"</span></span><br><span class="line"></span><br><span class="line"><span class="attr">duoshuo:</span></span><br><span class="line">  <span class="comment">#on: true</span></span><br><span class="line"><span class="attr">  domain:</span></span><br><span class="line">  <span class="comment"># 是否开启多说评论，http://duoshuo.com/create-site/</span></span><br><span class="line">  <span class="comment"># 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分</span></span><br><span class="line">  <span class="comment"># http://&lt;要填的部分&gt;.duoshuo.com (domain只填上&lt;&gt;里的内容，不要填整个网址)</span></span><br><span class="line"></span><br><span class="line"><span class="attr">youyan:</span></span><br><span class="line">  <span class="comment">#on: true</span></span><br><span class="line"><span class="attr">  id:</span></span><br><span class="line">  <span class="comment"># 是否开启友言评论，http://www.uyan.cc/index.php</span></span><br><span class="line">  <span class="comment"># id 中填写你的友言用户数字ID，注册后进入后台管理即可查看</span></span><br><span class="line">  <span class="comment"># 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。</span></span><br><span class="line"></span><br><span class="line"><span class="attr">livere:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  id:</span> <span class="string">MTAyMC8yODg2MC81NDMw</span></span><br><span class="line">  <span class="comment"># 是否开启来必力评论</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># &gt;&gt;&gt; Style Customisation 样式自定义 &lt;&lt;&lt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Background | 背景</span></span><br><span class="line"><span class="comment">## "5": show images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`</span></span><br><span class="line"><span class="comment">## "5": 显示`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片</span></span><br><span class="line"><span class="comment">## "0": white-gray background | 淳朴灰白背景</span></span><br><span class="line"><span class="attr">background_image:</span> <span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Base Font Size | 字号调节</span></span><br><span class="line"><span class="attr">base_font_size:</span> <span class="number">16</span>  <span class="comment">#px, 16 - 24</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## General Color Scheme | 主题配色方案</span></span><br><span class="line"><span class="comment">## 可用值 Value: yilia</span></span><br><span class="line"><span class="attr">color_scheme:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">highlight_style:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  inline_code:</span> <span class="number">8</span>  <span class="comment"># Value: 0 - 9 可选</span></span><br><span class="line"><span class="attr">  code_block:</span> <span class="number">0</span>  <span class="comment"># Value: 0 - 4</span></span><br><span class="line">  <span class="comment"># Set inline_code to style highlight text</span></span><br><span class="line">  <span class="comment"># Chose a highlight theme for code block</span></span><br><span class="line">  <span class="comment"># 通过 inline_code 切换内置文本高亮样式</span></span><br><span class="line">  <span class="comment"># 通过 code_block 切换内置代码高亮配色主题</span></span><br><span class="line"></span><br><span class="line"><span class="attr">blockquote_style:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  blockquote:</span> <span class="number">2</span>  <span class="comment"># Value: 0 - 7 可选</span></span><br><span class="line">  <span class="comment"># 自定义文章「引用部分」的样式</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Headings Style | 标题风格</span></span><br><span class="line"><span class="comment">## 0-Yelee, 1-Yilia, 2-GitHub</span></span><br><span class="line"><span class="attr">heading_style:</span> <span class="number">0</span> <span class="comment"># Value: 0 - 2</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## List style type (ul) | 无序列表项标记样式</span></span><br><span class="line"><span class="attr">list_style:</span> <span class="number">0</span>  <span class="comment"># value: 0 - 12 可选</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 左边栏宽度 px</span></span><br><span class="line"><span class="attr">left_col_width:</span> <span class="number">300</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Copyright info. of post | 文末版权信息</span></span><br><span class="line"><span class="attr">copyright:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Table of contents | 文章目录</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  list_number:</span> <span class="literal">false</span> <span class="comment"># 目录序号</span></span><br><span class="line"><span class="attr">  max_depth:</span> <span class="number">6</span>  <span class="comment"># 1 - 6 (h1-h6) 目录最大级数</span></span><br><span class="line"><span class="attr">  nowrap:</span> <span class="literal">false</span> <span class="comment"># Keep title on same line | 目录标题不换行</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否开启主页及加载头像时的动画效果</span></span><br><span class="line"><span class="comment"># Animation in Homepage and Loading avatar</span></span><br><span class="line"><span class="attr">animate:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Load jQuery UI to style tooltips</span></span><br><span class="line"><span class="comment"># 工具提示框样式美化</span></span><br><span class="line"><span class="attr">jquery_ui:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Max width of right cloumn | 限制右侧内容的宽带</span></span><br><span class="line"><span class="attr">limit_article_width:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  max_width:</span> <span class="number">60</span> <span class="comment"># em</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># &gt;&gt;&gt; Small features | 小功能设置 &lt;&lt;&lt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否开启边栏多标签切换</span></span><br><span class="line"><span class="comment"># Birdhouse button in left column</span></span><br><span class="line"><span class="attr">tagcloud:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Blogroll, Link exchange | 友情链接</span></span><br><span class="line"><span class="attr">friends:</span></span><br><span class="line"><span class="attr">  Hexo:</span> <span class="attr">https://hexo.io</span></span><br><span class="line"><span class="attr">  GitHub:</span> <span class="attr">https://pages.github.com/</span></span><br><span class="line"><span class="attr">  MOxFIVE:</span> <span class="attr">http://moxfive.xyz/</span></span><br><span class="line"><span class="comment">#friends: false</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#是否开启“关于我”。</span></span><br><span class="line"><span class="attr">aboutme:</span> <span class="string">专注于前端</span></span><br><span class="line"><span class="comment">#aboutme: false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Open link in a new tab | 是否在新窗口打开链接</span></span><br><span class="line"><span class="comment">## `global` 0: Set separately, 1: Open all in new 2: Open all in current</span></span><br><span class="line"><span class="comment">## `global` 0: 分开设置, 1: 全部在新标签打开, 2: 全部在"当前"标签打开</span></span><br><span class="line"><span class="attr">open_in_new:</span></span><br><span class="line"><span class="attr">  global:</span> <span class="number">0</span> <span class="comment"># 0-2</span></span><br><span class="line"><span class="attr">  title:</span> <span class="literal">false</span> <span class="comment"># article title in homepage 主页文章标题</span></span><br><span class="line"><span class="attr">  post:</span> <span class="literal">false</span> <span class="comment"># link within post/page 正文中的链接</span></span><br><span class="line"><span class="attr">  tags:</span> <span class="literal">false</span> <span class="comment"># 标签</span></span><br><span class="line"><span class="attr">  categories:</span> <span class="literal">false</span> <span class="comment"># 分类</span></span><br><span class="line"><span class="attr">  article_nav:</span> <span class="literal">false</span> <span class="comment"># 导航</span></span><br><span class="line"><span class="attr">  archives:</span> <span class="literal">true</span> <span class="comment"># 归档</span></span><br><span class="line"><span class="attr">  mini_archives:</span> <span class="literal">true</span> <span class="comment"># 迷你归档</span></span><br><span class="line"><span class="attr">  menu:</span> <span class="literal">false</span> <span class="comment"># 边栏菜单</span></span><br><span class="line"><span class="attr">  friends:</span> <span class="literal">true</span>  <span class="comment"># 友情链接</span></span><br><span class="line"><span class="attr">  socail:</span> <span class="literal">true</span> <span class="comment"># 社交图标</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Customize feed link 自定义订阅地址</span></span><br><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Update Reminder for IE6/7/8</span></span><br><span class="line"><span class="comment"># 针对 IE6/7/8 的升级浏览器提示</span></span><br><span class="line"><span class="attr">ie_updater:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  link:</span> <span class="string">//outdatedbrowser.com/</span></span><br><span class="line">  <span class="comment">## http://browsehappy.com/</span></span><br><span class="line">  <span class="comment">## http://outdatedbrowser.com/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Tab Title Change | 标签页标题切换</span></span><br><span class="line"><span class="attr">tab_title_change:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  left_tab_title:</span> <span class="string">'(つェ⊂) 我藏好了哦~ '</span></span><br><span class="line"><span class="attr">  return_tab_title:</span> <span class="string">'(*´∇｀*) 被你发现啦~ '</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># &gt;&gt;&gt; Vendors | 第三方工具 &amp; 服务 &lt;&lt;&lt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Local Site Search | 本地站内搜索</span></span><br><span class="line"><span class="comment">## Insatall below plugin to take effect | 使用搜索需先安装对应插件</span></span><br><span class="line"><span class="comment">## https://github.com/PaicHyperionDev/hexo-generator-search</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  onload:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">## true: get search.xml file when the page has loaded</span></span><br><span class="line">  <span class="comment">## false: get the file when search box gets focus</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># images viewer | 图片浏览器</span></span><br><span class="line"><span class="comment">## http://www.fancyapps.com/fancybox/</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Display Math(LaTeX, MathML...) | 数学公式支持</span></span><br><span class="line"><span class="comment">## https://www.mathjax.org/</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Socail Share | 是否开启分享</span></span><br><span class="line"><span class="attr">share:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  baidu:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  addthis:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  addthis_pubid:</span> <span class="string">"ra-56ff76c972fc0cf9"</span></span><br><span class="line">  <span class="comment">## Go to www.addthis.com/dashboard to get your pubid (in src of Code)</span></span><br><span class="line">  <span class="comment">## and customize AddThis share buttons</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 百度、谷歌站长验证。填写 HTML 标签 content</span></span><br><span class="line"><span class="comment"># Site Verification for Google and Baidu. HTML label content.</span></span><br><span class="line"><span class="attr">baidu_site:</span></span><br><span class="line"><span class="attr">google_site:</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X</span></span><br><span class="line"><span class="attr">google_analytics:</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 百度统计 http://sitecenter.baidu.com/sc-web/</span></span><br><span class="line"><span class="comment"># 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容</span></span><br><span class="line"><span class="attr">baidu_tongji:</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 不蒜子网站计数设置</span></span><br><span class="line"><span class="comment"># http://ibruce.info/2015/04/04/busuanzi/</span></span><br><span class="line"><span class="attr">visit_counter:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  site_pv:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  site_uv:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  page_visit:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  total_visitors:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  total_visitors_icon:</span> <span class="string">user</span></span><br><span class="line"><span class="attr">  total_views:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  total_views_icon:</span> <span class="string">eye</span></span><br><span class="line"><span class="attr">  post_views:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  post_views_icon:</span> <span class="string">eye</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># GitHub Repo Widget</span></span><br><span class="line"><span class="comment"># https://github.com/hustcc/GitHub-Repo-Widget.js</span></span><br><span class="line"><span class="attr">github_widget:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Progress Bar | 页面加载进度条</span></span><br><span class="line"><span class="comment"># Demo: http://github.hubspot.com/pace/docs/welcome/</span></span><br><span class="line"><span class="comment"># type: barber-shop|big-counter|bounce|center-atom|center-circle|</span></span><br><span class="line"><span class="comment">#       center-radar|center-simple|corner-indicator|flash|flat-top|</span></span><br><span class="line"><span class="comment">#       loading-bar|mac-osx|minimal</span></span><br><span class="line"><span class="comment"># color: black|blue|green|orange|pink|purple|red|silver|white|yellow|</span></span><br><span class="line"><span class="attr">progressBar:</span></span><br><span class="line"><span class="attr">  on:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">"minimal"</span>  <span class="comment"># Keep Quotes | 保留引号避免出错</span></span><br><span class="line"><span class="attr">  color:</span> <span class="string">blue</span></span><br><span class="line"></span><br><span class="line"><span class="attr">CDN:</span></span><br><span class="line"><span class="attr">  jquery:</span> <span class="string">//cdn.bootcss.com/jquery/2.2.4/jquery.min.js</span></span><br><span class="line"><span class="attr">  require:</span> <span class="string">//cdn.bootcss.com/require.js/2.2.0/require.min.js</span></span><br><span class="line"><span class="attr">  fontawesome:</span> <span class="string">//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css</span></span><br><span class="line"><span class="attr">  fancybox_js:</span> <span class="string">//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js</span></span><br><span class="line"><span class="attr">  fancybox_css:</span> <span class="string">//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css</span></span><br><span class="line"><span class="comment">#  fancybox_js: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js</span></span><br><span class="line"><span class="comment">#  fancybox_css: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css</span></span><br><span class="line"><span class="attr">  animate_css:</span> <span class="string">//cdn.bootcss.com/animate.css/3.5.1/animate.min.css</span></span><br><span class="line"><span class="attr">  jquery_ui_js:</span> <span class="string">//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js</span></span><br><span class="line"><span class="attr">  jquery_ui_css:</span> <span class="string">//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css</span></span><br><span class="line"><span class="attr">  pace_js:</span> <span class="string">//cdn.bootcss.com/pace/1.0.2/pace.min.js</span></span><br><span class="line"><span class="attr">  clipboard:</span> <span class="string">//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js</span></span><br><span class="line"><span class="attr">  mathjax:</span> <span class="string">//cdn.bootcss.com/mathjax/2.6.1/MathJax.js</span></span><br><span class="line"><span class="attr">  scrollreveal:</span> <span class="string">//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/post/writing/hexo/hexo-theme-yelee-config/">Hexo博客Yelee主题配置</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">墨问非名</a></p>
+        <p><span>发布时间:</span>2018-06-12, 21:18:02</p>
+        <p><span>最后更新:</span>2018-06-12, 21:18:02</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/post/writing/hexo/hexo-theme-yelee-config/" title="Hexo博客Yelee主题配置">https://underdream.github.io/post/writing/hexo/hexo-theme-yelee-config/</a>
+            <span class="copy-path" data-clipboard-text="原文: https://underdream.github.io/post/writing/hexo/hexo-theme-yelee-config/　　作者: 墨问非名" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target="_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/post/writing/hexo/embed-music-in-hexo/">
+                    在Hexo博客中插入音乐
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/post/comic/explained/dc/injustice-2/issue-62/">
+                    【生肉】【不义联盟2】【62】【急需招兵买马】
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#config-yml"><span class="toc-text">_config.yml</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-6 i,
+        .toc-level-6 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录" title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+        if ($(".left-col").is(":hidden")) {
+          $("#tocButton").attr("value", yiliaConfig.toc[1]);
+        }
+    </script>
+
+
+
+
+
+    
+      	<section id="comments" style="margin: 2em; padding: 2em; background: rgba(255, 255, 255, 0.5)">
+    <div id="vcomment" class="comment"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    <script>
+      new Valine({
+        el: '#vcomment',
+        notify: 'false',
+        verify: 'false',
+        app_id: "uNChvK50WHVnvV71K0J2ClCm-gzGzoHsz",
+        app_key: "Q86kXJvREzt2OB3oKTg6pGY0",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        avatar: "mm"
+      });
+    </script>
+</section>
+	
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/post/writing/hexo/embed-music-in-hexo/" title="上一篇: 在Hexo博客中插入音乐">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/post/comic/explained/dc/injustice-2/issue-62/" title="下一篇: 【生肉】【不义联盟2】【62】【急需招兵买马】">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/post/other/qq-group-announcement-translation-tool/">【鸽子汉化组】【招新】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/comixology/the-stone-king/issue-2/">【石王】【02】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/valine-comment/">Valine评论</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/comixology/the-stone-king/issue-1/">【石王】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-5/">【不羁灵途】【05】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/exorsisters/issue-2/">【汉化】【驱魔姐妹】【02】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-4/">【炮火佳丽】【04】【战斗1/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-4/">【哥谭车库】【04】【泥之峡谷】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-3/">【哥谭车库】【03】【牛刀初试】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/exorsisters/issue-1/">【汉化】【驱魔姐妹】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/qq-group-announcement-translation-tool/">【美漫自动汉化工具群宣】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/naomi/issue-1/">【汉化】【娜奥米】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/auto-lettering-tool/">【美漫汉化工具】【自动填字过程】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/thoughts-on-whiten-tool/">【美漫汉化工具】想做一个自动涂白器</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/comichron-sales-downloader/">【comichron历史销量下载器 v1.0 by 墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/app/mac/simple-comic-localization/">【Mac漫画阅读器】【Simple Comic 1.7.1 汉化版】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-72/">【生肉】【不义联盟2】【72】【再见】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-vs-masters-of-the-universe/issue-2/">【生肉】【不义联盟VS宇宙的巨人希曼】【02】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-71/">【生肉】【不义联盟2】【71】【干活】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-70/">【生肉】【不义联盟2】【70】【美好结局】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-69/">【生肉】【不义联盟2】【69】【爱与控心】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/bulk-download-worldwidetorrents-torrents/">【批量下载worldwidetorrents种子】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-68/">【生肉】【不义联盟2】【68】【和平会谈】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-vs-masters-of-the-universe/issue-1/">【生肉】【不义联盟VS宇宙的巨人希曼】【01】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-67/">【生肉】【不义联盟2】【67】【回到地球】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-66/">【生肉】【不义联盟2】【66】【最后一站】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/sales/superman-action-comics-sales/">【超人动作漫画销量】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/sales/superman-sales/">【超人销量】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/sales/batman-sales/">【蝙蝠侠销量】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-easy-charts-in-hexo/">在Hexo博客中使用easy-charts来画图</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/image/unnatural/issue-1/">【生肉】【不自然】【01】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-echarts-in-hexo/">在Hexo博客中使用ECharts来画图</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-65/">【生肉】【不义联盟2】【65】【布莱尼亚克】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-plantuml-in-hexo/">在Hexo博客中使用PlantUML来画UML</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-64/">【生肉】【不义联盟2】【64】【战争】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-63/">【生肉】【不义联盟2】【63】【暴狼不该得到灯戒】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-music-in-hexo/">在Hexo博客中插入音乐</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-theme-yelee-config/">Hexo博客Yelee主题配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-62/">【生肉】【不义联盟2】【62】【急需招兵买马】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-package-config/">Hexo博客package配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-theme-next-config/">Hexo博客NexT主题配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-61/">【生肉】【不义联盟2】【61】【战争伤亡】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-site-config/">Hexo博客站点配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-add-sequence/">为 Hexo 增加时序图解析功能</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-flowchart-in-hexo/">在Hexo博客中插入流程图的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-sequence-in-hexo/">在Hexo博客中插入时序图的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-mathjax-in-hexo/">在Hexo博客中插入Mathjax公式的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/markdown/welcome-to-stackedit/">Welcome to StackEdit</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-note-tag-in-hexo/">在Hexo博客中插入Note提示块标签的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/blog/alicewish/update-20180528/">【非名居】【功能更新】【20180528】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-bilibili-video-in-hexo/">在Hexo博客中插入bilibili视频的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-youtube-video-in-hexo/">在Hexo博客中插入Youtube视频的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/markdown/welcome-to-cmd-markdown/">欢迎使用 Cmd Markdown 编辑阅读器</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/blog/alicewish/update-20180414/">【非名居】【功能更新】【20180414】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/lizi-lake/无病呻吟/">无病呻吟</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-2/issue-1/">【不义联盟2】【01】【两颗飞速的子弹-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-7/">墨问非名-汉化教程7——【6分钟带你了解汉化】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/dorisdc/injustice-sin-of-love/">Injustice：The Sin of Love（爱之罪，PWP）</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/front-matter/">Front-matter</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-2/">【哥谭车库】【02】【始于希望】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-1/">【哥谭车库】【01】【真实世界】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending-side-story-twelve-years/">另一种结局(十二年番外)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/private/busmhr-4490/su18-econ-4400-elem-econometrics-11376/">SU18 ECON 4400 - Elem Econometrics (11376)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/blog/alicewish/update-20180212/">【非名居】【功能更新】【20180212】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-6/">墨问非名-汉化教程6——自动填字脚本</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending-side-story-main/">另一种结局(主线番外)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending-side-story-seven-days/">另一种结局(七日番外)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-ground-zero/issue-3/">【不义联盟-原爆点】【03】【副手们-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending/">【超蝠同人(不义AU)】另一种结局</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/linglinger/labyrinth/">The Labyrinth 迷宫</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-ground-zero/issue-2/">【不义联盟-原爆点】【02】【一切糟糕都将终结-第2部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-ground-zero/issue-1/">【不义联盟-原爆点】【01】【一切糟糕都将终结-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dark-horse/heart-in-a-box/issue-3/">【黑马】【盒中之心】【03】【墨问非名&Shynola】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-40/">【不义联盟-第五年】【40】【真正的正义】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-39/">【不义联盟-第五年】【39】【最后一搏】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-38/">【不义联盟-第五年】【38】【乐子】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-37/">【不义联盟-第五年】【37】【一号地球】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-36/">【不义联盟-第五年】【36】【自杀任务】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-35/">【不义联盟-第五年】【35】【计划】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-34/">【不义联盟-第五年】【34】【看不见的真相】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-1/">【究极铁人】【01】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-2/">【究极铁人】【02】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-3/">【究极铁人】【03】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-4/">【究极铁人】【04】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-5/">【究极铁人】【05】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-6/">【究极铁人】【06】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-7/">【究极铁人】【07】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-8/">【究极铁人】【08】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-9/">【究极铁人】【09】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-33/">【不义联盟-第五年】【33】【确切罪证】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-32/">【不义联盟-第五年】【32】【一夫当关】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-31/">【不义联盟-第五年】【31】【精确打击】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-30/">【不义联盟-第五年】【30】【承诺】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-29/">【不义联盟-第五年】【29】【王座】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-ground-zero/issue-3/">【生肉】【不义联盟-原爆点】【03】【副手们-第1部分】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-ground-zero/issue-2/">【生肉】【不义联盟-原爆点】【02】【一切糟糕都将终结-第2部分】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-28/">【不义联盟-第五年】【28】【抉择】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-8/">【喋血萝莉】【08】【圣所】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-ground-zero/issue-1/">【生肉】【不义联盟-原爆点】【01】【一切糟糕都将终结-第1部分】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-27/">【不义联盟-第五年】【27】【巴里】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-39/">【生肉】【不义联盟-第五年】【39】【最后一搏】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-26/">【不义联盟-第五年】【26】【选择-第2部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-7/">【喋血萝莉】【07】【熟识的恶魔】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-38/">【生肉】【不义联盟-第五年】【38】【乐子】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-6/">【喋血萝莉】【06】【天启】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-37/">【生肉】【不义联盟-第五年】【37】【一号地球】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-5/">【喋血萝莉】【05】【假先知】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-4/">【喋血萝莉】【04】【血狂】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-3/">【喋血萝莉】【03】【出殡日】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-2/">【喋血萝莉】【02】【蜕变】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-1/">【喋血萝莉】【01】【噩耗】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-36/">【生肉】【不义联盟-第五年】【36】【自杀任务】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-35/">【生肉】【不义联盟-第五年】【35】【计划】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-34/">【生肉】【不义联盟-第五年】【34】【看不见的真相】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-33/">【生肉】【不义联盟-第五年】【33】【确切罪证】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/dream-scroll/">梦境卷轴</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/how-dreams-start/">梦境开始之处</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/comic-sites-collect/">漫画资源站合辑</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-32/">【生肉】【不义联盟-第五年】【32】【一夫当关】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-25/">【不义联盟-第五年】【25】【选择-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-24/">【不义联盟-第五年】【24】【刀锋边缘】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-23/">【不义联盟-第五年】【23】【生日】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-31/">【生肉】【不义联盟-第五年】【31】【精确打击】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/anywaywillgo-share/">【anywaywillgo度盘下载】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/mo-wen-fei-ming-share/">【墨问非名度盘下载】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/site-instruction/">【资源】【墨问非名、anywaywillgo度盘合集】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/mi/mi-lettering-tutorial-2-3/">电解川-Mi汉化组填字教程2.3</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-30/">【生肉】【不义联盟-第五年】【30】【承诺】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-3/">【2号地球：会社】【03】【慰藉】【SLOMO&蓝披头士】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/flypy/">【输入法】【小鹤双拼】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-academy/issue-5/">【哥谭学院】【05】【保留最后一支舞】【SLOMO&MDC】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-22/">【不义联盟-第五年】【22】【怒气汹汹】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/comic-profits-sales/">【美漫盈利和销量关系】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-29/">【生肉】【不义联盟-第五年】【29】【王座】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/wango/wango-slomo-publish-steps/">Wango-SLOMO漫画发布流程</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/tim-seeley-on-weibo/">Tim Seeley来微博了</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/alicewish/after-story/">【DC】【不义联盟】【After Story后日谈】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-5/">墨问非名-汉化教程5——自动分页填字</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/interview/injustice-interview-alfred/">不义联盟在阿福死亡情节后的访谈</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dark-horse/heart-in-a-box/issue-2/">【黑马】【盒中之心】【02】【墨问非名&酿青椒】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-18/">【不义联盟-第五年】【18】【友谊的小船说翻就翻】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-19/">【不义联盟-第五年】【19】【自食其果】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-3/">【炮火佳丽】【03】【参军3/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-17/">【不义联盟-第五年】【17】【凡人与力量】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/alicewish/talk-to-me/">【DC】【不义联盟】【Talk to Me言者无心】第1章【龙与虎】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-4/">墨问非名-汉化教程4——快速填字演示</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-16/">【不义联盟-第五年】【16】【革命者第2部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-15/">【不义联盟-第五年】【15】【革命者第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-14/">【不义联盟-第五年】【14】【投下阴影】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/batman-v-superman-injustice/">BvS&不义联盟</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-13/">【不义联盟-第五年】【13】【选边站】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-4/">fhey-修图教程（四）简单字效的制作</a></li><li class="post-list-item"><a class="post-list-link" href="/post/app/mac/mac-essentials-eudict/">欧路词典的OCR取词功能</a></li><li class="post-list-item"><a class="post-list-link" href="/post/app/mac/mac-essentials-simple-comic/">Simple Comic——Mac看漫画必备</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/backup-comic/">墨问非名-美漫图源制作</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-12/">【不义联盟-第五年】【12】【三向混战】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-11/">【不义联盟-第五年】【11】【非常嫌犯】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-10/">【不义联盟-第五年】【10】【比扎罗超人奇事】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-3/">fhey-修图教程（三）3D字的制作</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-2/">【炮火佳丽】【02】【参军2/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-3/">墨问非名-汉化教程3——一分钟填字法</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-2/">【2号地球：会社】【02】【守护天使】【蓝披头士&SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-3/">【不羁灵途】【03】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-1/">【炮火佳丽】【01】【参军1/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-2/">fhey-修图教程（二）内容识别</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-1/">fhey-修图教程（一）常用工具</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-4/">【不羁灵途】【04】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-1/">【2号地球：会社】【01】【星球陷落】【蓝披头士&SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/savior/issue-2/">【救世主】【02】【SLOMO&海洋】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dark-horse/heart-in-a-box/issue-1/">【黑马】【盒中之心】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-2/">墨问非名-汉化教程2——绝对居中</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-1-example/">墨问非名-汉化教程1.1——批量法涂渐变实例</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-1/">墨问非名-汉化教程1——批量涂渐变</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-0/">【2号地球：会社】【00】【先睹为快】【蓝披头士】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/savior/issue-1/">【救世主】【01】【SLOMO&海洋】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-2/">【不羁灵途】【02】【墨问非名&Wango】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-1/">【不羁灵途】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/interview/tom-taylor-returns-to-injustice-2/">【Tom Taylor回归不义联盟2】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/interview/tom-taylor-leaving-injustice/">【编剧Tom Taylor离开不义联盟】【脸书声明翻译】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/lieyue/lieyue-tutorial-1/">洌月-美漫汉化入门1.0</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/comic-book-lettering-comicraft-way/">Comic Book Lettering The Comicraft Way</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/slash/slash-glossary/">西方同人术语汇集(Slash Glossary)</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2015-2019 墨问非名
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_uv" style="display:none">
+                        <span id="site-visit_uv" title="本站访客数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" style="display:none">
+                        <span id="site-visit_pv" title="本站总访问量">
+                            
+								<span>| </span>
+							
+							<i class="fa fa-eye animated infinite pulser" aria-hidden="true"></i>
+							<span id="busuanzi_value_site_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    <script type="application/javascript">
+      var hide = false, leftWidth = 400;
+      function hideLeftCol() {
+        if (hide) {
+          $(".left-col").width(leftWidth);
+          $(".left-col .intrude-less").css('display', '');
+          $("#tocButton").css('display', '');
+          ($('#switch-btn').css('display') === 'block' && $('#switch-area').css('display') === 'block') || $('#toc').slideDown(320);
+          $(".hide-left-col").css("left", leftWidth).html('<i class="fa fa-angle-double-left"></i>');
+          $(".mid-col").css("left", leftWidth)
+          $("#post-nav-button").css("left", leftWidth)
+          $("#post-nav-button > a:nth-child(2)").css("display", "block")
+          hide = false
+        } else {
+          $(".left-col").width(0);
+          $(".left-col .intrude-less").css('display', 'none');
+          $("#toc").css('display', 'none');
+          $("#tocButton").css('display', 'none');
+          $(".hide-left-col").css("left", 0).html('<i class="fa fa-angle-double-right"></i>');
+          $(".mid-col").css("left", 0)
+          $("#post-nav-button").css("left", 0)
+          $("#post-nav-button > a:nth-child(2)").css("display", "none")
+          if ($(".post-list").is(":visible")) {
+            $("#post-nav-button .fa-bars,#post-nav-button .fa-times").toggle();
+            $(".post-list").toggle();
+          }
+          hide = true
+        }
+      }
+      $(".hide-left-col").click(function() {
+        hideLeftCol()
+      });
+    </script>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 6;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+             github: ".github-widget a", 
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+  </div>
+<script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1550481657402')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body>
+</html>

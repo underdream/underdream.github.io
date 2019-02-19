@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head><link rel=manifest href=/manifest.json><meta name="generator" content="Hexo 3.8.0"><link rel="manifest" href="/manifest.json">
+
+    <!-- hexo-inject:begin --><script src='https://unpkg.com/echarts@3.3.2/dist/echarts.min.js'></script><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="墨问非名">
+
+
+    
+    
+
+
+<meta name="description" content="墨问非名的Hexo博客">
+<meta name="keywords" content="墨问非名">
+<meta property="og:type" content="website">
+<meta property="og:title" content="非名榭">
+<meta property="og:url" content="https://underdream.github.io/page/12/index.html">
+<meta property="og:site_name" content="非名榭">
+<meta property="og:description" content="墨问非名的Hexo博客">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="非名榭">
+<meta name="twitter:description" content="墨问非名的Hexo博客">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="非名榭" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <style> .article { opacity: 0;} </style>
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>非名榭</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: true,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+
+
+
+</head></html>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/uploads/avatar.jpg" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">墨问非名</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">墨问非名的Hexo博客</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true">
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class="no-result">No results found <i class="fa fa-spinner fa-pulse"></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/archives/">归档</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                            
+                                <a class="fa 新浪微博" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                            
+                                <a class="fa GitHub" href="https://github.com/Alicewish" title="GitHub"></a>
+                            
+                                <a class="fa V2EX" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                            
+                                <a class="fa 豆瓣" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                            
+                                <a class="fa 简书" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                            
+                                <a class="fa Coding" href="https://coding.net/u/alicewish" title="Coding"></a>
+                            
+                                <a class="fa bilibili" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                            
+                                <a class="fa Google" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                            
+                                <a class="fa Twitter" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                            
+                                <a class="fa LOFTER" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                            
+                        </ul>
+                        
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/action-lab/">Action Lab</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/after-story/">After Story</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bombshells/">Bombshells</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/comixology/">ComiXology</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dc/">DC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dark-horse/">Dark Horse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/earth-2-society/">Earth 2 Society</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/exorsisters/">Exorsisters</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-academy/">Gotham Academy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-city-garage/">Gotham City Garage</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/heart-in-a-box/">Heart in a Box</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/image/">Image</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice/">Injustice</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-ground-zero/">Injustice - Ground Zero</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-2/">Injustice 2</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-vs-masters-of-the-universe/">Injustice Vs. Masters of the Universe</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">Mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/marvel/">Marvel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/naomi/">Naomi</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/savior/">Savior</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/simple-comic/">Simple Comic</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/superior-iron-man/">Superior Iron Man</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/talk-to-me/">Talk to Me</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/the-stone-king/">The Stone King</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tim-seeley/">Tim Seeley</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tomboy/">Tomboy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unnatural/">Unnatural</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wango/">Wango</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wayward/">Wayward</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fhey/">fhey</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/不义联盟/">不义联盟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/修图/">修图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/图源/">图源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/填字/">填字</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/梦境/">梦境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/欧路词典/">欧路词典</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/汉化/">汉化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生肉/">生肉</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/科学技术/">科学技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/说明/">说明</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/资源/">资源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/输入法/">输入法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/销量/">销量</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>
+                    
+</div>
+    </div>
+    <div class="hide-left-col" title="隐藏侧栏">
+        <i class="fa fa-angle-double-left"></i>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <!-- <a href="/" title="回到主页">墨问非名</a> -->
+          <h1 class="header-author js-mobile-header hide">墨问非名</h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/uploads/avatar.jpg" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">墨问非名</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">墨问非名的Hexo博客</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/archives/">归档</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <ul class="social">
+                    
+                        <a class="fa Email" target="_blank" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                    
+                        <a class="fa 新浪微博" target="_blank" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                    
+                        <a class="fa GitHub" target="_blank" href="https://github.com/Alicewish" title="GitHub"></a>
+                    
+                        <a class="fa V2EX" target="_blank" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                    
+                        <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                    
+                        <a class="fa 知乎" target="_blank" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                    
+                        <a class="fa 豆瓣" target="_blank" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                    
+                        <a class="fa 简书" target="_blank" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                    
+                        <a class="fa Coding" target="_blank" href="https://coding.net/u/alicewish" title="Coding"></a>
+                    
+                        <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                    
+                        <a class="fa Google" target="_blank" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                    
+                        <a class="fa Twitter" target="_blank" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                    
+                        <a class="fa LOFTER" target="_blank" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
+</nav>
+      <div class="body-wrap">
+  
+    <article id="post-issue-2" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/translated/action-lab/tomboy/issue-2/" class="article-date">
+      <time datetime="2016-08-27T15:21:46.000Z" itemprop="datePublished">2016-08-27</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/translated/action-lab/tomboy/issue-2/">【喋血萝莉】【02】【蜕变】【阿兽】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">60字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">1分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>喋血萝莉002  </p>
+<p>在万圣节之夜的行动之后，艾迪森开始了解到她真正的使命。与此同时，她的祖父和恶魔做了交易，使目击她杀人的证人再也无法开口。  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f78qbao2f7j21j82cw4qp.jpg" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/translated/">Translated</a><a class="article-category-link" href="/categories/comic/translated/action-lab/">Action Lab</a><a class="article-category-link" href="/categories/comic/translated/action-lab/tomboy/">Tomboy</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/action-lab/">Action Lab</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tomboy/">Tomboy</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/translated/action-lab/tomboy/issue-2/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-issue-1" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/translated/action-lab/tomboy/issue-1/" class="article-date">
+      <time datetime="2016-08-27T14:21:46.000Z" itemprop="datePublished">2016-08-27</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/translated/action-lab/tomboy/issue-1/">【喋血萝莉】【01】【噩耗】【阿兽】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">108字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">1分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>喋血萝莉001  </p>
+<p>十六岁的冰球少女艾迪森在童年好友之死引发的一系列事件之后变成了罪犯的制裁者。在这座腐败不堪的城市里她从来不缺少目标，但这一切并非没有代价。在寻求复仇的过程中，艾迪森眼前的现实逐渐扭曲，而正义渐渐成为掩盖野蛮行为的借口。  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f78prucl6oj21j82cw4qp.jpg" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/translated/">Translated</a><a class="article-category-link" href="/categories/comic/translated/action-lab/">Action Lab</a><a class="article-category-link" href="/categories/comic/translated/action-lab/tomboy/">Tomboy</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/action-lab/">Action Lab</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tomboy/">Tomboy</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/translated/action-lab/tomboy/issue-1/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-issue-36" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-36/" class="article-date">
+      <time datetime="2016-08-23T05:23:21.000Z" itemprop="datePublished">2016-08-23</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-36/">【生肉】【不义联盟-第五年】【36】【自杀任务】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">1,009字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">3分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>不义联盟第五年036  </p>
+<p>刚去看了自杀小队。  </p>
+<p>考虑到制作周期，是相当对得起华纳的电影。目前全球5.75亿美元。  </p>
+<p>因为时差和操劳，看完累瘫睡了3个小时。梦里见到主演们了，表了下白。  </p>
+<p>话说这么久没有反抗军的便当，接下来四话是不是要改一改？还是说会水到赶也赶不上？  </p>
+<p>不管怎样，先测测满网速下的发布速度……以后大概都是这个时间。  </p>
+<p>直播，请用好只看楼主。  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f73ilxzsy2j21hk156aqg" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/explained/">Explained</a><a class="article-category-link" href="/categories/comic/explained/dc/">DC</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/">Injustice - Gods Among Us</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/year-five/">Year Five</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dc/">DC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-36/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-issue-35" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-35/" class="article-date">
+      <time datetime="2016-08-17T16:57:31.000Z" itemprop="datePublished">2016-08-17</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-35/">【生肉】【不义联盟-第五年】【35】【计划】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">1,086字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">4分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>不义联盟第五年035  </p>
+<p>我觉得这话附赠了掉时髦值的教学。  </p>
+<p>等了这么久的钟叔出场……竟然……  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f6vmzp3magj21hk156ndk" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/explained/">Explained</a><a class="article-category-link" href="/categories/comic/explained/dc/">DC</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/">Injustice - Gods Among Us</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/year-five/">Year Five</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dc/">DC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-35/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-issue-34" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-34/" class="article-date">
+      <time datetime="2016-08-10T13:13:53.000Z" itemprop="datePublished">2016-08-10</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-34/">【生肉】【不义联盟-第五年】【34】【看不见的真相】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">1,188字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">4分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>不义联盟第五年034  </p>
+<p>看得我毫无感觉，上一话好歹还有个不走心的便当。  </p>
+<p>套路能不能玩更溜点？  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f6omgpm1i7j21hk156k5s" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/explained/">Explained</a><a class="article-category-link" href="/categories/comic/explained/dc/">DC</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/">Injustice - Gods Among Us</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/year-five/">Year Five</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dc/">DC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-34/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-issue-33" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-33/" class="article-date">
+      <time datetime="2016-08-02T15:00:22.000Z" itemprop="datePublished">2016-08-02</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-33/">【生肉】【不义联盟-第五年】【33】【确切罪证】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">1,186字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">4分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>不义联盟第五年033  </p>
+<p>说实话，炮火佳丽才是现阶段那个让人惊喜不断的作品。  </p>
+<p>刚刚买了第二卷合订本。画面安排真是让人叹服。  </p>
+<p>在下一话出来之前，我倒是挺确定这一话是第五年最无聊的。  </p>
+<p>So predictable.  </p>
+<p>不管如何，守望将尽。明年不义2就可以大爽了。  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f6fkqkayfsj21hk156nbl" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/explained/">Explained</a><a class="article-category-link" href="/categories/comic/explained/dc/">DC</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/">Injustice - Gods Among Us</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/year-five/">Year Five</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dc/">DC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-33/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-dream-scroll" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/other/dream-scroll/" class="article-date">
+      <time datetime="2016-07-30T15:13:12.000Z" itemprop="datePublished">2016-07-30</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/other/dream-scroll/">梦境卷轴</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">2,398字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">8分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>————————————————————  </p>
+<h1 id="你的梦可以用来写小说吗？还记得你特别牛逼的梦吗？"><a href="#你的梦可以用来写小说吗？还记得你特别牛逼的梦吗？" class="headerlink" title="你的梦可以用来写小说吗？还记得你特别牛逼的梦吗？"></a>你的梦可以用来写小说吗？还记得你特别牛逼的梦吗？</h1><p>从我很小很小时候开始，我的梦就丰富多彩的。没有时代的限制，但也都在地球上，宇宙外的没梦见过，大概在梦里我的想象力也不够。有率千军万马打仗的，有潜伏谍战的，也有异形统治地球的，也有谈情说爱的（男主角必须帅得一逼），探险寻宝藏，还有高空坠落长翅膀的，从医救死扶伤的，做女皇女王的，等等等。基本上美国大片和中国年代片在梦里都有。小时候兴奋得很，觉得自己真天才，想把梦记录下来写写小说啥的。但是一般开个头之后慢慢的后面的情节全不记得了。我有时候在梦里都对自己说，醒了一定要记得，要记得，记得…….然，99.5%忘了。  </p>
+<p>童鞋们，你们都做过什么牛逼梦？分享分享呗  </p>
+<hr>
+<p>作为一个坚持七年几乎每天记录梦境的孩纸来回答一下。  </p>
+<p>正文约2500字，需3分钟阅读。  </p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/other/">Other</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/梦境/">梦境</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/other/dream-scroll/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-how-dreams-start" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/other/how-dreams-start/" class="article-date">
+      <time datetime="2016-07-30T14:28:25.000Z" itemprop="datePublished">2016-07-30</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/other/how-dreams-start/">梦境开始之处</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">2,212字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">7分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h1 id="一场梦境是怎么开始的？"><a href="#一场梦境是怎么开始的？" class="headerlink" title="一场梦境是怎么开始的？"></a>一场梦境是怎么开始的？</h1><p>有人记得你是如何进入梦境的吗？梦境的初始状态是什么？故事是怎么开始的？谢谢。  </p>
+<hr>
+<p>作为一个坚持七年几乎每天记录梦境的孩纸来回答一下。  </p>
+<p>不过为了说明白还是先捋捋明白梦吧。  </p>
+<p>正文约2500字，需3分钟阅读。  </p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/other/">Other</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/梦境/">梦境</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/other/how-dreams-start/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-comic-sites-collect" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/resource/comic-sites-collect/" class="article-date">
+      <time datetime="2016-07-27T11:56:28.000Z" itemprop="datePublished">2016-07-27</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/resource/comic-sites-collect/">漫画资源站合辑</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">148字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">1分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>如不可用请在本页评论，以便更新。  </p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/resource/">Resource</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/资源/">资源</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/resource/comic-sites-collect/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-issue-32" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-32/" class="article-date">
+      <time datetime="2016-07-26T09:36:57.000Z" itemprop="datePublished">2016-07-26</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-32/">【生肉】【不义联盟-第五年】【32】【一夫当关】</a>
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">1,052字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">4分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>不义联盟第五年032  </p>
+<p>不要管现在的剧情。反正泰勒聚聚要回来了。  </p>
+<p>不过这个战斗力系统还是超级诡异(⊙o⊙)哦。骰子都不足以形容了。  </p>
+<p><img src="https://ww2.sinaimg.cn/large/a15b4afegw1f67aa8c3wzj21hk156dv7" alt><br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/comic/">Comic</a><a class="article-category-link" href="/categories/comic/explained/">Explained</a><a class="article-category-link" href="/categories/comic/explained/dc/">DC</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/">Injustice - Gods Among Us</a><a class="article-category-link" href="/categories/comic/explained/dc/injustice-gods-among-us/year-five/">Year Five</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dc/">DC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-32/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/page/11/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="page-number" href="/page/11/">11</a><span class="page-number current">12</span><a class="page-number" href="/page/13/">13</a><a class="page-number" href="/page/14/">14</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><a class="extend next" rel="next" href="/page/13/">Next &raquo;</a>
+    </nav>
+  
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2015-2019 墨问非名
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_uv" style="display:none">
+                        <span id="site-visit_uv" title="本站访客数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" style="display:none">
+                        <span id="site-visit_pv" title="本站总访问量">
+                            
+								<span>| </span>
+							
+							<i class="fa fa-eye animated infinite pulser" aria-hidden="true"></i>
+							<span id="busuanzi_value_site_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    <script type="application/javascript">
+      var hide = false, leftWidth = 400;
+      function hideLeftCol() {
+        if (hide) {
+          $(".left-col").width(leftWidth);
+          $(".left-col .intrude-less").css('display', '');
+          $("#tocButton").css('display', '');
+          ($('#switch-btn').css('display') === 'block' && $('#switch-area').css('display') === 'block') || $('#toc').slideDown(320);
+          $(".hide-left-col").css("left", leftWidth).html('<i class="fa fa-angle-double-left"></i>');
+          $(".mid-col").css("left", leftWidth)
+          $("#post-nav-button").css("left", leftWidth)
+          $("#post-nav-button > a:nth-child(2)").css("display", "block")
+          hide = false
+        } else {
+          $(".left-col").width(0);
+          $(".left-col .intrude-less").css('display', 'none');
+          $("#toc").css('display', 'none');
+          $("#tocButton").css('display', 'none');
+          $(".hide-left-col").css("left", 0).html('<i class="fa fa-angle-double-right"></i>');
+          $(".mid-col").css("left", 0)
+          $("#post-nav-button").css("left", 0)
+          $("#post-nav-button > a:nth-child(2)").css("display", "none")
+          if ($(".post-list").is(":visible")) {
+            $("#post-nav-button .fa-bars,#post-nav-button .fa-times").toggle();
+            $(".post-list").toggle();
+          }
+          hide = true
+        }
+      }
+      $(".hide-left-col").click(function() {
+        hideLeftCol()
+      });
+    </script>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 6;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+    
+
+     
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+             github: ".github-widget a", 
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+  </div>
+<script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1550481657402')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body>
+</html>

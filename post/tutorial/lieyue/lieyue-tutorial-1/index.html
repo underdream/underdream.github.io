@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head><link rel=manifest href=/manifest.json><meta name="generator" content="Hexo 3.8.0"><link rel="manifest" href="/manifest.json">
+
+    <!-- hexo-inject:begin --><script src='https://unpkg.com/echarts@3.3.2/dist/echarts.min.js'></script><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="墨问非名">
+
+
+
+<meta name="description" content="【前言】写这个教程的起因是一封来自 @海老师个萝卜嘞 的微博私信，问我哪里可以找到汉化教程。查了一下网上的镶字教程多为日漫，借此机会也想为各位想汉化推广自己心爱的美漫的亲们提供一些自己的汉化心得。   首先，汉化这个行为虽然属于非营利行为，但我相信亲们肯定是出于对自己汉化作品的爱才选择投入精力去参与这个活动。决定要做，不一定水平多么高，质量多么好，但唯一的一点，态度绝对要认真，如果马马虎虎敷衍了事">
+<meta name="keywords" content="修图,填字">
+<meta property="og:type" content="article">
+<meta property="og:title" content="洌月-美漫汉化入门1.0">
+<meta property="og:url" content="https://underdream.github.io/post/tutorial/lieyue/lieyue-tutorial-1/index.html">
+<meta property="og:site_name" content="非名榭">
+<meta property="og:description" content="【前言】写这个教程的起因是一封来自 @海老师个萝卜嘞 的微博私信，问我哪里可以找到汉化教程。查了一下网上的镶字教程多为日漫，借此机会也想为各位想汉化推广自己心爱的美漫的亲们提供一些自己的汉化心得。   首先，汉化这个行为虽然属于非营利行为，但我相信亲们肯定是出于对自己汉化作品的爱才选择投入精力去参与这个活动。决定要做，不一定水平多么高，质量多么好，但唯一的一点，态度绝对要认真，如果马马虎虎敷衍了事">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8mnoiyj20bj00ljrb.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubfch4nj205303u754.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuajwzutj204901dmx2.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc4ok0sj204602et8q.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc29agyj205e0293yn.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9jvrpnj204e01d0sm.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9n8ea4j205304nwez.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubdk7muj205y05gwf5.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub4j0xnj204e02d3yh.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9a6vmhj205p057mxx.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubxvix1j207y04hmyh.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8k947cj204f03saaj.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubmaf2vj2046048wee.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8r5x9oj20ff00k0t1.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8tyj9kj20av06976p.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubazumhj202q01uq2w.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubp81cfj200u01tdfm.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu87nuc6j201701ma9w.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9y41dqj203o0290sm.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8nu32sj203q01g0su.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8x89k1j204301dmx8.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9fvfpyj2011017dfm.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua9lgfxj2011017t8h.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubqddylj203d02j3yx.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8lqhujj206a04laca.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua3zctsj206a04w76k.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuagiforj203k01tdft.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua9lgfxj2011017t8h.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuavsq0lj202n01r74c.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua2gqztj202b01idfs.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubl2ci2j203q02gaam.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubtkb3lj201200ut8h.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8by9osj203d029t96.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub3jn8bj200u00p0s3.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu89s7zsj20bj00p0sn.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9uzb8sj204l055aak.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaay3cyj205n04bq41.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubvxwm2j204y05iwf3.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8auetij204l030gm6.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaf9hh9j202m03d0tc.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8dgfqhj206n05475s.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubggibfj200z01bjr6.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua7d4jaj209g00ra9y.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc1br5oj207h03awg8.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8eftf5j204801taa4.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9dh4w7j204e01swek.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8vvsydj203x01o0sn.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9ti73vj202w01ymx0.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9omsetj206k03z764.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc5xf1yj206o015a9x.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuappi4qj203z03d3yj.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuba6vntj202q04aglt.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9rkuanj207203eaaj.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub96g1rj200v00tdfl.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuan521tj2028015a9y.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9w4kooj207y02zta6.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9ip0goj203z04edg0.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua0o80wj205r04mq4e.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubod7y0j204f023wet.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8sf4xkj204f023jrk.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuca5ngfj203m02hmxm.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8ptq2aj203v02m74w.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8v0ab8j204c018wek.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua6hfknj205r01laa5.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9c4ulmj203701g0su.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuam8knuj203801maa7.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub6y7bxj207205z0tj.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua5cflsj207304fmxo.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub07zd5j203y01jweo.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubsgsu8j203y01vglr.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9ly4oxj203c01hmx9.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubjwwqwj203c01k74c.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuacd6rnj205303z759.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8gm1hsj203801yglo.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9kss3kj204901rdg0.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9etc1kj203r01wt90.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuary3ibj200z0140si.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuauj8tqj203j01ojri.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubuec0kj204n0313yg.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc71d59j203x01wmxd.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaqw2z7j203n01ywem.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubrik8uj204v03z3yo.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubhsslaj204j02d3yx.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu88r9f8j204p04yaac.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaj3bk3j203x027t90.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8iyes9j203k05bmxa.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubc3mckj204m02j3z0.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9snn8uj201z01xdfs.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubzy8ksj201z01rglk.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubncyl9j204502g74m.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub5m07pj203u01mq2s.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub8dndwj20410300t7.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8fhkhij20bj0190sz.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwual029zj203e034gln.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaoinrtj20bj01wdgl.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubyzh00j203601rt8s.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubiyrb5j203b01w3yq.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuawuk9bj207b04wt9t.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8hl8wfj205g04nglv.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub1d2hmj203c02cwem.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9hk6sjj20d903y0x1.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub2pvsej208m030tap.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9x9qz9j203k03iaa2.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9qih5lj20ao03hdii.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaytbqyj207v03hjtl.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9zj4udj208103oq5b.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua8x84tj20ao04vdjk.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc90tsij20b1057n1c.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuate2isj205v04h0ts.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc3odvqj20bj03agnk.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuahu70tj208k00n3yi.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuadsdd1j209q05e41l.jpg">
+<meta property="og:updated_time" content="2013-02-28T02:24:12.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="洌月-美漫汉化入门1.0">
+<meta name="twitter:description" content="【前言】写这个教程的起因是一封来自 @海老师个萝卜嘞 的微博私信，问我哪里可以找到汉化教程。查了一下网上的镶字教程多为日漫，借此机会也想为各位想汉化推广自己心爱的美漫的亲们提供一些自己的汉化心得。   首先，汉化这个行为虽然属于非营利行为，但我相信亲们肯定是出于对自己汉化作品的爱才选择投入精力去参与这个活动。决定要做，不一定水平多么高，质量多么好，但唯一的一点，态度绝对要认真，如果马马虎虎敷衍了事">
+<meta name="twitter:image" content="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8mnoiyj20bj00ljrb.jpg">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="非名榭" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>洌月-美漫汉化入门1.0 | 非名榭</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+
+
+
+</head></html>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/uploads/avatar.jpg" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">墨问非名</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">墨问非名的Hexo博客</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true">
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class="no-result">No results found <i class="fa fa-spinner fa-pulse"></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/archives/">归档</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                            
+                                <a class="fa 新浪微博" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                            
+                                <a class="fa GitHub" href="https://github.com/Alicewish" title="GitHub"></a>
+                            
+                                <a class="fa V2EX" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                            
+                                <a class="fa 豆瓣" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                            
+                                <a class="fa 简书" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                            
+                                <a class="fa Coding" href="https://coding.net/u/alicewish" title="Coding"></a>
+                            
+                                <a class="fa bilibili" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                            
+                                <a class="fa Google" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                            
+                                <a class="fa Twitter" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                            
+                                <a class="fa LOFTER" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                            
+                        </ul>
+                        
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/action-lab/">Action Lab</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/after-story/">After Story</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bombshells/">Bombshells</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/comixology/">ComiXology</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dc/">DC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dark-horse/">Dark Horse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/earth-2-society/">Earth 2 Society</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/exorsisters/">Exorsisters</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-academy/">Gotham Academy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gotham-city-garage/">Gotham City Garage</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/heart-in-a-box/">Heart in a Box</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/image/">Image</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice/">Injustice</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-gods-among-us/">Injustice - Gods Among Us</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-ground-zero/">Injustice - Ground Zero</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-2/">Injustice 2</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/injustice-vs-masters-of-the-universe/">Injustice Vs. Masters of the Universe</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">Mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/marvel/">Marvel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/naomi/">Naomi</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/savior/">Savior</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/simple-comic/">Simple Comic</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/superior-iron-man/">Superior Iron Man</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/talk-to-me/">Talk to Me</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/the-stone-king/">The Stone King</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tim-seeley/">Tim Seeley</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tomboy/">Tomboy</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unnatural/">Unnatural</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wango/">Wango</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wayward/">Wayward</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fhey/">fhey</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/不义联盟/">不义联盟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/修图/">修图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/图源/">图源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/填字/">填字</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/梦境/">梦境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/欧路词典/">欧路词典</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/汉化/">汉化</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生肉/">生肉</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/科学技术/">科学技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/说明/">说明</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/资源/">资源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/输入法/">输入法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/销量/">销量</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>
+                    
+</div>
+    </div>
+    <div class="hide-left-col" title="隐藏侧栏">
+        <i class="fa fa-angle-double-left"></i>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <!-- <a href="/" title="回到主页">墨问非名</a> -->
+          <h1 class="header-author js-mobile-header hide">墨问非名</h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/uploads/avatar.jpg" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">墨问非名</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">墨问非名的Hexo博客</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/archives/">归档</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <ul class="social">
+                    
+                        <a class="fa Email" target="_blank" href="mailto:anywaywillgo@gmail.com" title="Email"></a>
+                    
+                        <a class="fa 新浪微博" target="_blank" href="http://weibo.com/alicewish" title="新浪微博"></a>
+                    
+                        <a class="fa GitHub" target="_blank" href="https://github.com/Alicewish" title="GitHub"></a>
+                    
+                        <a class="fa V2EX" target="_blank" href="https://www.v2ex.com/member/Alicewish" title="V2EX"></a>
+                    
+                        <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                    
+                        <a class="fa 知乎" target="_blank" href="http://www.zhihu.com/people/mo-wen-fei-ming" title="知乎"></a>
+                    
+                        <a class="fa 豆瓣" target="_blank" href="http://douban.com/people/Alicewish" title="豆瓣"></a>
+                    
+                        <a class="fa 简书" target="_blank" href="http://www.jianshu.com/u/5d98f0cc5d37" title="简书"></a>
+                    
+                        <a class="fa Coding" target="_blank" href="https://coding.net/u/alicewish" title="Coding"></a>
+                    
+                        <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/2329324/#/" title="bilibili"></a>
+                    
+                        <a class="fa Google" target="_blank" href="https://plus.google.com/anywaywillgo" title="Google"></a>
+                    
+                        <a class="fa Twitter" target="_blank" href="https://twitter.com/AnyWayWillGo" title="Twitter"></a>
+                    
+                        <a class="fa LOFTER" target="_blank" href="http://underdream.lofter.com/" title="LOFTER"></a>
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
+</nav>
+      <div class="body-wrap"><article id="post-lieyue-tutorial-1" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/post/tutorial/lieyue/lieyue-tutorial-1/" class="article-date">
+      <time datetime="2013-02-28T02:24:12.000Z" itemprop="datePublished">2013-02-27</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      洌月-美漫汉化入门1.0
+    </h1>
+  
+
+        
+        	<div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">6,934字</span>
+      </span>
+    </span>
+
+    <span>&nbsp; | &nbsp;</span>
+
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">24分</span>
+      </span>
+    </span>
+    
+	                
+		
+			<span id="busuanzi_container_page_pv" style="display:none">
+				<span id="page-visit" title="本文总阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span>&nbsp; | &nbsp;</span> 阅读次数：
+					<span id="busuanzi_value_page_pv">
+					</span>
+				</span>
+	  		</span>
+		
+	
+</div>
+        
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        	<br>
+        	<br>
+        
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/tutorial/">Tutorial</a><a class="article-category-link" href="/categories/tutorial/lieyue/">Lieyue</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/修图/">修图</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/填字/">填字</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css"><h2 id="【前言】"><a href="#【前言】" class="headerlink" title="【前言】"></a>【前言】</h2><p>写这个教程的起因是一封来自 @海老师个萝卜嘞 的微博私信，问我哪里可以找到汉化教程。查了一下网上的镶字教程多为日漫，借此机会也想为各位想汉化推广自己心爱的美漫的亲们提供一些自己的汉化心得。  </p>
+<p>首先，汉化这个行为虽然属于非营利行为，但我相信亲们肯定是出于对自己汉化作品的爱才选择投入精力去参与这个活动。决定要做，不一定水平多么高，质量多么好，但唯一的一点，态度绝对要认真，如果马马虎虎敷衍了事，那不如不做。<strong>对自己的汉化作品负责，也就是对你自己负责。</strong>  </p>
+<p>汉化没有所谓的标准步骤可言，当然在接触汉化初期可能是有的，但在长时间的制作实践中每个人都会总结出自己的一套方法。可能不是最好的，但肯定是自己用起来最顺手且效率的。故而这篇入门充其量也就是一个引子，重要的是让亲们了解汉化大概有哪些步骤，及最终要达到一个什么样的效果，在知其所以然的前提下自行选择及简化，在实际操作中摸索出属于自己的方法。多说无益，下面进入正题。  </p>
+<h2 id="【步骤一：图源】"><a href="#【步骤一：图源】" class="headerlink" title="【步骤一：图源】"></a>【步骤一：图源】</h2><p>如何寻找图源？相信喜爱美漫的你对国内的资源圈已经轻车熟路，故此不再赘述。这里我列举几个自己常用的外网资源站。  </p>
+<h4 id="连载中新刊"><a href="#连载中新刊" class="headerlink" title="*连载中新刊"></a>*连载中新刊</h4><ol>
+<li><a href="http://hankscorpio.info/comics/browse2/" target="_blank" rel="noopener">http://hankscorpio.info/comics/browse2/</a>  </li>
+</ol>
+<p>这个网站一般会放出当周的最新连载，速度相当快，且分流地址多，对追连载的亲十分  </p>
+<p>有用。不过和某些浏览器会出现兼容性问题，所以推荐使用自带IE打开。  </p>
+<ol start="2">
+<li><p><a href="http://avaxhome.bz/comics" target="_blank" rel="noopener">http://avaxhome.bz/comics</a>  </p>
+</li>
+<li><p><a href="http://mycomicpost.com/" target="_blank" rel="noopener">http://mycomicpost.com/</a>  </p>
+</li>
+</ol>
+<p>这两个网站也能找到新连载，同时能找到随机发布的旧刊。  </p>
+<p>一般在北京时间周三深夜至周四凌晨我会刷这三个网站等当周的新刊图源发布，哪个网站抢得先手每周都有不同，所以多刷新刷新会获得意外惊喜。  </p>
+<h4 id="完结旧刊"><a href="#完结旧刊" class="headerlink" title="* 完结旧刊"></a>* 完结旧刊</h4><p>在知道自己想找的刊物英文名的基础上搜索。如果寻找特定的话数，如XXX的第01话，输入XXX 01搜索不到的话请试试XXX 001，再没有就换个站搜吧。另一种情况，如果要找的旧刊和连载中刊物重名，搜索时前几页全是新刊的情况下，请在后面加上年份再搜索试试。例如：XXX 01 1960。  </p>
+<ol>
+<li><a href="http://thepiratebay.se/" target="_blank" rel="noopener">http://thepiratebay.se/</a>  </li>
+</ol>
+<p>大名鼎鼎的海盗湾。  </p>
+<ol start="2">
+<li><a href="http://www.general-files.com/" target="_blank" rel="noopener">http://www.general-files.com/</a>  </li>
+</ol>
+<p>个人相当喜欢这个资源站，速度相当快，但在国内貌似略纠结。  </p>
+<ol start="3">
+<li><p><a href="http://www.filecrop.com/" target="_blank" rel="noopener">http://www.filecrop.com/</a>  </p>
+</li>
+<li><p><a href="http://www.bergfiles.com/" target="_blank" rel="noopener">http://www.bergfiles.com/</a>  </p>
+</li>
+<li><p><a href="http://rapidlibrary.com/" target="_blank" rel="noopener">http://rapidlibrary.com/</a>  </p>
+</li>
+<li><p><a href="http://sharethefiles.com/forum/azlists.php?cat=azebkcomics" target="_blank" rel="noopener">http://sharethefiles.com/forum/azlists.php?cat=azebkcomics</a>  </p>
+</li>
+</ol>
+<p>【6】这个网站中你能找到绝大多数的旧刊，但它都是ed2k资源，需要极大的耐心。  </p>
+<p>类似的资源站还有很多，在一个站找不到想要的刊请不要灰心，点开下一个说不定就会有希望。寻找旧刊和寻宝一样，需要付出耐心与努力，且并不是每次都能收获回报，但找全自己想要的漫画时收获的喜悦也是巨大的。  </p>
+<h3 id="【步骤二：调图】"><a href="#【步骤二：调图】" class="headerlink" title="【步骤二：调图】"></a>【步骤二：调图】</h3><p>自这一步开始我们就要用到Photoshop了，这个软件的具体安装过程我也不再多言。当然，有亲表示可以用画图工具或者美图秀秀涂白镶字……咳，也不是不可以，但平心而论用PS是最方便快捷的（当然不排除只是我对那两个工具不熟这个可能性）。  </p>
+<p>对于现在连载中的新刊来说，调图基本上只需要修改它的大小和分辨率。（旧刊的调图还包括修改偏色修正图源等，所需篇幅巨大，在这个入门教程中不再介绍。）  </p>
+<p>以Grifter Midnighter01为例。我们下载到如下图源：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8mnoiyj20bj00ljrb.jpg" alt="pastedGraphic.png">  </p>
+<a id="more"></a>  
+<p>它是一个cbr压缩包，解压以后我们看到图源情况：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubfch4nj205303u754.jpg" alt="pastedGraphic\_1.png">  </p>
+<p>为了方便后面镶字可以统一大小，我们一般把图的大小改到宽1280像素。分辨率72（这样可以让对话字体的大小基本定在20点左右）。  </p>
+<p>为了一劳永逸，我们来制作一个动作。  </p>
+<ol>
+<li><p>打开PS，随便打开一张图，点到界面右边的动作面板。<br><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuajwzutj204901dmx2.jpg" alt="pastedGraphic\_2.png">（如果没找到，点开【窗口】菜单，勾选【动作】，它就出现了）  </p>
+</li>
+<li><p>点击图中这个按钮，新建新动作。  </p>
+</li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc4ok0sj204602et8q.jpg" alt="pastedGraphic\_3.png">  </p>
+<ol start="3">
+<li>跳出如右对话框，给它取个喜欢的名字，选取顺手的功能键（我是以为前面几个键被其它动作占用所以选了F7，不是一定的）。点【记录】。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc29agyj205e0293yn.jpg" alt="pastedGraphic\_4.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9jvrpnj204e01d0sm.jpg" alt="pastedGraphic\_5.png">此时我们可以看到，动作面板下方的红点状态就是记录状态。它会记录你接下来所做的动作。  </p>
+<ol start="4">
+<li>点击【图像】菜单-图像大小（或直接Alt+<code>Ctrl</code>+I）唤出图像大小对话框。看到图片初始状态。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9n8ea4j205304nwez.jpg" alt="pastedGraphic\_6.png">  </p>
+<p>更改像素及分辨率得到下图。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubdk7muj205y05gwf5.jpg" alt="pastedGraphic\_7.png">点确定。  </p>
+<ol start="5">
+<li>点击【文件】菜单-存储（或<code>Ctrl</code>+S）。然后【关闭】这张图片。  </li>
+</ol>
+<p>此时动作面板为：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub4j0xnj204e02d3yh.jpg" alt="pastedGraphic\_8.png">点击红点旁边的方块，结束记录。这个动作就制作完毕了。  </p>
+<ol start="6">
+<li>我们来试一下这个动作能不能正常运行。  </li>
+</ol>
+<p>再打开一张图片（不要选和刚才相同的那张），点快捷键<code>F7</code>，图片关闭了，再打开一次，唤出图片大小检查是否符合要求。如果符合，则安心使用。  </p>
+<p>回到我们的调图步骤。动作只要做一次，以后都可以用。所以现在，我们在得到图源以后，打开PS，一次性打开所有的图片，一遍遍点<code>F7</code>（或你自己选的快捷键），等到PS界面上不再有任何图片，这一话的图你就全部改到规定大小了。  </p>
+<p><strong>然而，</strong>这里要注意的是，虽然少，但偶尔会出现有连页的现象。连页的大小是普通页的两倍，所有不能直接用动作来改它的大小，要拎出来单独改。数据如下：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9a6vmhj205p057mxx.jpg" alt="pastedGraphic\_9.png">当然你也可以单为连页做一个动作……但连页的数量实在不多，暂时看不出有这个必要。  </p>
+<p>于是这一步完成。  </p>
+<p>PS：关于为什么不把调图和后面的前期处理等做进一个动作，主要是考虑到非个人汉化时前期调图修图和镶字君是不同人的情况。在这一步建立了PS文档的话体积太大不便于传输，所以把不用新建图层的这步单独做成一个动作，存储后还能是JPG文档。  </p>
+<h3 id="【步骤三：涂白与前期处理】"><a href="#【步骤三：涂白与前期处理】" class="headerlink" title="【步骤三：涂白与前期处理】"></a>【步骤三：涂白与前期处理】</h3><p>很多人问为什么我可以在新刊图源到手后几个小时就做出成品，关键就在这一步。无论你是个人汉化还是与人合作或汉化组的镶字君，这一步决定了你的效率。  </p>
+<p>点开PS，打开除封面外的前10页（封面页我习惯放到最后处理，但放到最前面处理也没事）（选前10页是因为它是比较适合操作的一个数量，出于后面翻译时查资料及字典时的考虑，我的PS窗口一般不是最大化的，基本大小如下图）。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubxvix1j207y04hmyh.jpg" alt="pastedGraphic\_10.png">  </p>
+<p>例如此时我打开的是Grifter Midnighter01的001-010页（封面为000）  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8k947cj204f03saaj.jpg" alt="pastedGraphic\_11.png">按打开的顺序，默认当前显示的会是010页，我们就从010页开始。  </p>
+<ol>
+<li>新建图层（<code>Ctrl</code>+<code>Shift</code>+n，但它会弹出来一个新建图层的对话框你还得点回车确定，所以你也可以为它建一个动作）。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubmaf2vj2046048wee.jpg" alt="pastedGraphic\_12.png">  </p>
+<ol start="2">
+<li>为避免在之后涂白过程中忘记新建图层引发杯具增加不必要的麻烦，所以我们先把全部十个文件的新建图层步骤做好。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8r5x9oj20ff00k0t1.jpg" alt="pastedGraphic\_13.png">  </p>
+<p>自图示010起从后至前新建图层，直到你建好005的图层（或006，总之到你的PS不肯再显示前面的为止）。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8tyj9kj20av06976p.jpg" alt="pastedGraphic\_14.png">  </p>
+<p>这时点选到001页从前至后新建图层。直到与后面建过的会师。（这就是不一次性打开20页的原因，20页这个步骤要重复四次且容易遗漏。）  </p>
+<ol start="3">
+<li>在确认所有文件都有新建图层以后回到010页，把图片的缩放级别调到100%（如果你对自己的视力及显示屏有信心，50%也可以，但不推荐，因为容易出现漏涂现象）。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubazumhj202q01uq2w.jpg" alt="pastedGraphic\_15.png">  </p>
+<ol start="4">
+<li>开始涂白。涂白这个步骤虽然简单，但方法最是分门别类。下面介绍其中几种。  </li>
+</ol>
+<h4 id="画笔工具。"><a href="#画笔工具。" class="headerlink" title="* 画笔工具。"></a>* <code>画笔</code>工具。</h4><p>a.选中画笔工具，设前景为白色，大小25左右就行没有死规定，可视情况用“[”和“ ]”快捷键调整大小。（PS：如果快捷键无效，那是和输入法冲突，请在这一步把输入法调回系统默认的英语）  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubp81cfj200u01tdfm.jpg" alt="pastedGraphic\_16.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu87nuc6j201701ma9w.jpg" alt="pastedGraphic\_17.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9y41dqj203o0290sm.jpg" alt="pastedGraphic\_18.png">  </p>
+<p>b.在字的起始端点一个点。（因为这图是旧刊，本来需要进一步的调图，但我跳过了这一步，所以对话框不是纯白，此时涂上去会看到色差，但请先无视这点，在之后步骤中会解决这个问题）。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8nu32sj203q01g0su.jpg" alt="pastedGraphic\_19.png">  </p>
+<p>c.按住<code>Shift</code>键点击文字末端，会生成一条直线把这行字全部盖住。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8x89k1j204301dmx8.jpg" alt="pastedGraphic\_20.png">  </p>
+<p>d.依法炮制把整夜涂完。  </p>
+<h4 id="索套工具"><a href="#索套工具" class="headerlink" title="* 索套工具"></a>* <code>索套</code>工具</h4><p>a.选中【索套】工具，设背景为白色。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9fvfpyj2011017dfm.jpg" alt="pastedGraphic\_21.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua9lgfxj2011017t8h.jpg" alt="pastedGraphic\_22.png">  </p>
+<p>b.圈起你要涂白的部分。（如一次圈不完或圈多了，可按住<code>Shift</code>+点击（添加）或<code>alt</code>+点击（减去）调整。）（PS：如果你对你对鼠标控制能力不是非常自信，请选择其他方法或改用【多边形索套】工具）  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubqddylj203d02j3yx.jpg" alt="pastedGraphic\_23.png">  </p>
+<p>c.按住<code>Shift</code>把这一页所有的对话都圈完。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8lqhujj206a04laca.jpg" alt="pastedGraphic\_24.png">  </p>
+<p>d.按<code>Ctrl</code>+<code>Delete</code>键填充背景色。<code>Ctrl</code>+d取消选区。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua3zctsj206a04w76k.jpg" alt="pastedGraphic\_25.png">  </p>
+<h4 id="椭圆选框工具"><a href="#椭圆选框工具" class="headerlink" title="* 椭圆选框工具"></a>* <code>椭圆选框</code>工具</h4><p>a.选择<code>椭圆选框</code>工具，设背景为白色。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuagiforj203k01tdft.jpg" alt="pastedGraphic\_26.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua9lgfxj2011017t8h.jpg" alt="pastedGraphic\_22.png">  </p>
+<p>b. 拉出一个圆圈住文字。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuavsq0lj202n01r74c.jpg" alt="pastedGraphic\_27.png">  </p>
+<p>c. 按<code>Ctrl</code>+<code>Delete</code>键填充背景色。<code>Ctrl</code>+<code>d</code>取消选区。（不把所有对话框圈完再填充是因为椭圆工具不大方便驾驭，要预测它的中心点，经常会拉歪调整也比较麻烦，多了移动选框时会整体移动非常不方便。个人不推荐这个方法）  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua2gqztj202b01idfs.jpg" alt="pastedGraphic\_28.png">  </p>
+<p>d.同理把整页涂白。  </p>
+<p>* 若碰到非白色的对话框，不要慌，因为通常它是以矩形出现。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubl2ci2j203q02gaam.jpg" alt="pastedGraphic\_29.png">  </p>
+<ol>
+<li>使用<code>矩形选框</code>工具，选取整个对话框。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubtkb3lj201200ut8h.jpg" alt="pastedGraphic\_30.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8by9osj203d029t96.jpg" alt="pastedGraphic\_31.png">（图出自TheAmazingSpider-ManMovie01）  </p>
+<ol start="2">
+<li>使用<code>渐变</code>工具。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub3jn8bj200u00p0s3.jpg" alt="pastedGraphic\_32.png">鼠标点击下图位置，唤出渐变编辑器。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu89s7zsj20bj00p0sn.jpg" alt="pastedGraphic\_33.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9uzb8sj204l055aak.jpg" alt="pastedGraphic\_34.png">  </p>
+<p>点击左端色标，鼠标变为吸管状，点击对话框最上部蓝色（箭头指向处）。得到下图。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaay3cyj205n04bq41.jpg" alt="pastedGraphic\_35.png">  </p>
+<p>点击右端色标，鼠标变为吸管状，点击对话框最下部蓝色，此时编辑器为：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubvxwm2j204y05iwf3.jpg" alt="pastedGraphic\_36.png">  </p>
+<p>点确定，回到图片。鼠标点击对话框最上部，按住不放，由上至下拉到对话框最下部松开（可按住<code>Shift</code>呈直线）。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8auetij204l030gm6.jpg" alt="pastedGraphic\_37.png">  </p>
+<p><code>Ctrl</code>+<code>d</code>取消选区，完成。  </p>
+<p>* 若碰到如AvX的凤凰对话框般不规则的蛋疼渐变框，则相对来说较为麻烦，由于篇幅问题这个教程内不再讨论。如有碰到请个别敲我。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaf9hh9j202m03d0tc.jpg" alt="pastedGraphic\_38.png">  </p>
+<ol start="5">
+<li>把整页都涂白后，把图片的缩放级别调回50%，即你可以把整张图片尽收眼底的状态。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8dgfqhj206n05475s.jpg" alt="pastedGraphic\_39.png">  </p>
+<ol start="6">
+<li><p>这一张就此放下，自010往前涂至005再从001涂至004，原因同前述。（涂白示例中是005只是因为这张字比较少请无视）  </p>
+</li>
+<li><p>在10页全部涂完且缩放级别都改为50%以后，回到010（示例中依旧是005请继续无视）。我们开始处理色差问题。  </p>
+</li>
+</ol>
+<p>a. 选择<code>魔棒</code>工具。容差50，对所有图层取样。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubggibfj200z01bjr6.jpg" alt="pastedGraphic\_40.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua7d4jaj209g00ra9y.jpg" alt="pastedGraphic\_41.png">  </p>
+<p>b.选中全部对话框白色部分（按<code>Shift</code>添加选区你懂的）。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc1br5oj207h03awg8.jpg" alt="pastedGraphic\_42.png">  </p>
+<p>c.设背景为白色。  </p>
+<p>d.【选择】菜单-修改-收缩。收缩量1，确认。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8eftf5j204801taa4.jpg" alt="pastedGraphic\_43.png">  </p>
+<p>e. 【选择】菜单-修改-羽化。羽化1，确认。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9dh4w7j204e01swek.jpg" alt="pastedGraphic\_44.png">  </p>
+<p>f. 按<code>Ctrl</code>+<code>Delete</code>键填充背景色。<code>Ctrl</code>+<code>d</code>取消选区。  </p>
+<p>g.把涂白层，即图层1的不透明度改至50%。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8vvsydj203x01o0sn.jpg" alt="pastedGraphic\_45.png">  </p>
+<p>（PS：d至g这几步我一般是用动作完成。制作如调图，不再赘述。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9ti73vj202w01ymx0.jpg" alt="pastedGraphic\_46.png">）  </p>
+<ol start="8">
+<li><p>照惯例的顺序把10张的色差全部调完。  </p>
+</li>
+<li><p>打开你事先准备的logo文档，将其调至适当的大小及透明度（你可以放进某张图里先试一下，调好了再复制出来储存），将其复制到001-010所有文档中。  </p>
+</li>
+<li><p>回到010，用<code>移动</code>工具调整logo的位置。（上logo的原因主要是防止有人直接拿网上的翻译图去印盗版书，当然有没有用另说。）  </p>
+</li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9omsetj206k03z764.jpg" alt="pastedGraphic\_47.png">  </p>
+<ol start="11">
+<li>按<code>Ctrl</code>+<code>Shift</code>+S【存储为】。将文档改成与图源不同的名称，存储为PSD文档，然后【关闭】  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc5xf1yj206o015a9x.jpg" alt="pastedGraphic\_48.png">  </p>
+<ol start="12">
+<li><p>接下来的9张同样处理。直到PS回到空白状态。  </p>
+</li>
+<li><p>打开这一话剩下的十数张图，重复001-010的动作。得到除封面外一整话的PSD文档。这一步就算完成了。  </p>
+</li>
+</ol>
+<p>（PS：对于与人合作的镶字君，在拿到图源，翻译君在翻译时就可以开始进行这一步，不用拖到拿到翻译稿再做。）  </p>
+<h2 id="【步骤四：翻译与镶字】"><a href="#【步骤四：翻译与镶字】" class="headerlink" title="【步骤四：翻译与镶字】"></a>【步骤四：翻译与镶字】</h2><p>对于个人汉化的各位，我们可以直接在PSD文档上进行翻译，这也是刚才把不透明度改到50%而不是更高的原因。但如果你是翻译君，那就乖乖地打开文稿翻译吧。  </p>
+<p>翻译镶字时建议5张5张一来，道理和跑长跑一样一下打开20多张的话从心理上就会觉得后面还有很多，很容易打击积极性，分成五张作为一个节点的话就会轻松很多。  </p>
+<p>对于如何翻译相信不用我多说，若碰到看不懂的梗或俗语，请活用各类英英词典及资料站。列举一些自己常用的。  </p>
+<ol>
+<li><p><a href="http://www.urbandictionary.com/" target="_blank" rel="noopener">http://www.urbandictionary.com/</a>  </p>
+</li>
+<li><p><a href="http://www.merriam-webster.com/" target="_blank" rel="noopener">http://www.merriam-webster.com/</a>  </p>
+</li>
+<li><p><a href="http://www.comicvine.com/" target="_blank" rel="noopener">http://www.comicvine.com/</a>  </p>
+</li>
+<li><p><a href="http://dc.wikia.com/wiki/Main_Page" target="_blank" rel="noopener">http://dc.wikia.com/wiki/Main_Page</a>  </p>
+</li>
+<li><p><a href="http://marvel.wikia.com/Main_Page" target="_blank" rel="noopener">http://marvel.wikia.com/Main_Page</a>  </p>
+</li>
+<li><p><a href="http://www.wikia.com/Wikia" target="_blank" rel="noopener">http://www.wikia.com/Wikia</a>  </p>
+</li>
+</ol>
+<p>在这里我单纯介绍一下镶字。  </p>
+<p>打开001-005，回到001开始。  </p>
+<h3 id="行距"><a href="#行距" class="headerlink" title="* 行距"></a>* 行距</h3><p>统一且适当的行距能使镶字看起来整洁美观，所以在开始镶字之前，我们先来设定一下行距。  </p>
+<ol>
+<li>调到界面右边的【段落】面板。点击下图的按钮。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuappi4qj203z03d3yj.jpg" alt="pastedGraphic\_49.png">  </p>
+<ol start="2">
+<li>点选<code>对齐</code>后，跳出对话框。把自动行距改为120%。确定。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuba6vntj202q04aglt.jpg" alt="pastedGraphic\_50.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9rkuanj207203eaaj.jpg" alt="pastedGraphic\_51.png">  </p>
+<p>之后若无特殊情况，在镶字时都不用管行距了。  </p>
+<p>* 使用【横排文字】工具，在你要镶字的地方点击一下，即可开始输入文字。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub96g1rj200v00tdfl.jpg" alt="pastedGraphic\_52.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuan521tj2028015a9y.jpg" alt="pastedGraphic\_53.png">  </p>
+<p>也有人喜欢拉个框出来镶，那对拿翻译稿复制黏贴的镶字君是有益的，因为不会出现句子太长超出画面范围难以断字的情况，但对个人汉化的亲来说没有必要。因为在诸如死侍或蜘蛛侠等话唠的连载中对话相当密集，拉出的框太大有时会阻碍你点击到相邻的对话框。  </p>
+<h3 id="字体"><a href="#字体" class="headerlink" title="* 字体"></a>* 字体</h3><p>方正、华康等字体库的字体都非常好用。个人偏向华康，主要是因为不喜欢方正字体的标点及热情时期的习惯。  </p>
+<p>辨认字体是一个镶字君必须掌握的技巧。当然这个也没有标准答案，不过有基本规律。  </p>
+<h4 id="1-基本字体。"><a href="#1-基本字体。" class="headerlink" title="1. 基本字体。"></a>1. 基本字体。</h4><p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9w4kooj207y02zta6.jpg" alt="pastedGraphic\_54.png">  </p>
+<p>像这样的基本字体一般都用<code>中圆体</code>。什么字库的请自行选择。由于前面的步骤中已统一了图片大小所以我们也可以预见，像这样的普通对话框的基本字号一般就在20号左右。行距自动。消除锯齿方式平滑。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9ip0goj203z04edg0.jpg" alt="pastedGraphic\_55.png">  </p>
+<p>至于是<code>居中</code>还是<code>左对齐</code>、<code>右对齐</code>，以英文对齐方式为准。所以这里是<code>居中</code>。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua0o80wj205r04mq4e.jpg" alt="pastedGraphic\_56.png">  </p>
+<p>记得照原文意思加粗斜。  </p>
+<p>* 有个别人的对话字体不是基本字体。例如Thor。这货说起话来都是这样的：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubod7y0j204f023wet.jpg" alt="pastedGraphic\_57.png">（出自AvX00）  </p>
+<p>所以我们就要相应地改变字体，这里用了<code>华康行书体</code>。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8sf4xkj204f023jrk.jpg" alt="pastedGraphic\_58.png">  </p>
+<h4 id="2-独白框"><a href="#2-独白框" class="headerlink" title="2. 独白框"></a>2. 独白框</h4><p>我们再看神奇蜘蛛侠电影配套漫画这个典型的独白框。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuca5ngfj203m02hmxm.jpg" alt="pastedGraphic\_59.png">  </p>
+<p>它显然和基本字体有所不同，一般如果独白框和基本框字体相同，则都用中圆体。但这种不同的情况就可以酌情选择。像这样还算中规中矩的字体我会选中黑体。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8ptq2aj203v02m74w.jpg" alt="pastedGraphic\_60.png">（<code>华康中黑体</code>，20点，平滑，行距自动，左对齐）  </p>
+<h4 id="3-地点、时间等"><a href="#3-地点、时间等" class="headerlink" title="3. 地点、时间等"></a>3. 地点、时间等</h4><p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8v0ab8j204c018wek.jpg" alt="pastedGraphic\_61.png">  </p>
+<p>地点时间等的字体多用<code>俪粗黑</code>，<code>俪中黑</code>等字体。同时也可以用综艺体。视个人喜好而定。大小行距比照原图。  </p>
+<p>DC家漫画的镶字我偏爱用<code>华康俪粗黑</code>，加斜，居左。效果如下：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua6hfknj205r01laa5.jpg" alt="pastedGraphic\_62.png">（<code>华康俪粗黑</code>）（图片出自Stormwatch15）  </p>
+<p>Marvel家的地点字体通常比较花哨，我多用华康综艺体和新综艺体。如：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9c4ulmj203701g0su.jpg" alt="pastedGraphic\_63.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuam8knuj203801maa7.jpg" alt="pastedGraphic\_64.png">（<code>华康新综艺体</code>）（图片出自UltimateComicsIronMan01）  </p>
+<p>字体效果-描边+投影（鼠标双击字体图层，唤出<code>图层样式</code>对话框）  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub6y7bxj207205z0tj.jpg" alt="pastedGraphic\_65.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua5cflsj207304fmxo.jpg" alt="pastedGraphic\_66.png">  </p>
+<p>当然更花哨的还有很多，如：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub07zd5j203y01jweo.jpg" alt="pastedGraphic\_67.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubsgsu8j203y01vglr.jpg" alt="pastedGraphic\_68.png">（<code>华康饰艺体W5</code>）（图片出自PunisherWarZone03）  </p>
+<p>再如：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9ly4oxj203c01hmx9.jpg" alt="pastedGraphic\_69.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubjwwqwj203c01k74c.jpg" alt="pastedGraphic\_70.png">（<code>超研泽中钢笔行楷</code>）（图片出自Aquaman14）  </p>
+<p>注意这些都不是硬性规定，举了那么多例子主要是想表达，要根据英文字体的感觉来找中文字体，尽量贴合原图的感觉。  </p>
+<h3 id="断字"><a href="#断字" class="headerlink" title="* 断字"></a>* 断字</h3><p>断字在镶字中的作用就如同天然的标点，英翻中比较容易出现长句，断句断得好则可以消除这点带来的弊端，使你的汉化稿看起来舒适自然。  </p>
+<p>断字的基本原则之1：你不能把一个词拆成两行。我们把断字想象成一个吸气点，如果你把一个词从中间断开，就如同把那个词分开来说，极为突兀别扭。所以，若无特殊情况，把词一刀两断是大忌。  </p>
+<p>比如说刚才GM01中的这一处。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuacd6rnj205303z759.jpg" alt="pastedGraphic\_71.png">如果我们因为上面这行看起来太挤，把【并非】这个词拆开，断成：<img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8gm1hsj203801yglo.jpg" alt="pastedGraphic\_72.png">这样读起来如哏在喉。  </p>
+<p>断字的基本原则之2：尽量贴合你的对话框形状。如果对话框是圆形，断字尽量往圆形靠。那样是最美观的。一两行的话无所谓，三行以上尤其要注意这一点。同样这张图，如果改成：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9kss3kj204901rdg0.jpg" alt="pastedGraphic\_73.png">，意思是断对了，但却没有原来的看起来舒服了。  </p>
+<p>断字需要多加推敲揣摩，同样一句话，在镶字的时候可以尝试多种断法，断完以后读一下，选出你读起来最顺口，看起来最顺眼的的断法吧。  </p>
+<h4 id="要居中。"><a href="#要居中。" class="headerlink" title="* 要居中。"></a>* 要居中。</h4><p>这一点我想所有监制君都应该深有体会。检查新人镶字，打回去最多，说得最多一句话应该就是这个。这是非常简单的事，但也许就是因为太过简单，很多新人镶字君都会忽略。这是态度问题，所以，请千万记住，镶的字请一定要放到对话框中间！！！  </p>
+<h4 id="加强语气的超格镶字"><a href="#加强语气的超格镶字" class="headerlink" title="* 加强语气的超格镶字"></a>* 加强语气的超格镶字</h4><p>这里的镶字要灵活应变，以Aquaman14的这一处为例：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9etc1kj203r01wt90.jpg" alt="pastedGraphic\_74.png">我们发现，字超出格子，且自在白色框内是没有黑色描边的。所以我们按如下步骤处理：  </p>
+<ol>
+<li><p>新建图层组，新建图层。  </p>
+</li>
+<li><p>用<code>椭圆选框</code>工具拉出一个白色的圆。  </p>
+</li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuary3ibj200z0140si.jpg" alt="pastedGraphic\_75.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuauj8tqj203j01ojri.jpg" alt="pastedGraphic\_76.png">  </p>
+<ol start="3">
+<li>双击圆的图层，唤出图层效果对话框。描边黑色2。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubuec0kj204n0313yg.jpg" alt="pastedGraphic\_77.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc71d59j203x01wmxd.jpg" alt="pastedGraphic\_78.png">  </p>
+<ol start="4">
+<li>新建图层，用【椭圆选框】拉出一个红色的圆，描边黑色2。拖到白色圆下方。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaqw2z7j203n01ywem.jpg" alt="pastedGraphic\_79.png">  </p>
+<ol start="5">
+<li>打出“船长”二字，利用基线偏移调整每个字的上下位置。描边白色3。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubrik8uj204v03z3yo.jpg" alt="pastedGraphic\_80.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubhsslaj204j02d3yx.jpg" alt="pastedGraphic\_81.png">  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu88r9f8j204p04yaac.jpg" alt="pastedGraphic\_82.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaj3bk3j203x027t90.jpg" alt="pastedGraphic\_83.png">  </p>
+<ol start="6">
+<li><p>复制文字图层“船长”，双击更改复制图层的图层效果为描边黑色5（比白色描边多了2，即黑色边为2）。  </p>
+</li>
+<li><p>将复制文字图层拖到白色圆图层与红色圆图层中间。  </p>
+</li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8iyes9j203k05bmxa.jpg" alt="pastedGraphic\_84.png"><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubc3mckj204m02j3z0.jpg" alt="pastedGraphic\_85.png">  </p>
+<ol start="8">
+<li>此时我们看到，原图中对话框的尾巴是从白色框延伸出去的。所以在白色圆的图层上方再新建一个图层。用【多边形索套工具勾出一个T型，填充白色（其实最佳选择为【钢笔】工具，但比较麻烦）。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9snn8uj201z01xdfs.jpg" alt="pastedGraphic\_86.png">  </p>
+<p><code>Ctrl</code>+<code>d</code>取消选择，用<code>直线</code>工具拉出两条黑线，粗细为2。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubzy8ksj201z01rglk.jpg" alt="pastedGraphic\_87.png">  </p>
+<ol start="9">
+<li>在这些图层的最下方新建图层，利用【画笔】或【图章】或【修补】等工具进行补图。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubncyl9j204502g74m.jpg" alt="pastedGraphic\_88.png">  </p>
+<ol start="10">
+<li>为界面整洁我们点击组前方的箭头把它收起来。完成。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub5m07pj203u01mq2s.jpg" alt="pastedGraphic\_89.png">  </p>
+<p>类似的镶字还有很多，请在碰到的时候思考如何处理和摆放才能更贴近原文。  </p>
+<h3 id="注释"><a href="#注释" class="headerlink" title="* 注释"></a>* 注释</h3><p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub8dndwj20410300t7.jpg" alt="pastedGraphic\_90.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8fhkhij20bj0190sz.jpg" alt="pastedGraphic\_91.png">  </p>
+<p>注释符号用*或1,2,3等数字皆可。在对话中要标注的文字后加上标。  </p>
+<p>上标方法：选中要上标的*号或数字，点击字符面板<code>T1</code>  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwual029zj203e034gln.jpg" alt="pastedGraphic\_92.png">  </p>
+<p>注释前也加*号或数字，但不上标。格式为：  </p>
+<p>*注：XXX，……。  </p>
+<p>使用和被注释文字相同的字体，字号为被注释文字字号-2号（即原来20号注释就是18号），行距自动，平滑，左对齐。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaoinrtj20bj01wdgl.jpg" alt="pastedGraphic\_93.png">  </p>
+<p>在画面中时字体黑色，描边白色2。  </p>
+<h3 id="拟声词"><a href="#拟声词" class="headerlink" title="* 拟声词"></a>* 拟声词</h3><p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubyzh00j203601rt8s.jpg" alt="pastedGraphic\_94.png"> <img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwubiyrb5j203b01w3yq.jpg" alt="pastedGraphic\_95.png">  </p>
+<p>拟声词注释可做可不做。字体自行斟酌，图中为华康POP体2，大小比原图小一点。前加上标<code>*</code>号，颜色、效果等仿原图。  </p>
+<p>基本的镶字就到这里，在整页全都翻完镶完之后，缩放级别调到50%整体看看有没有遗漏。若没有，则把涂白层的不透明度拉到100%。再看看文字有没有在对话框中间，别扭的地方移动一下，这页镶字完成。  </p>
+<p>按<code>Ctrl</code>+<code>s</code>储存PSD文档。再按<code>Ctrl</code>+<code>Shift</code>+<code>s</code>存储为：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuawuk9bj207b04wt9t.jpg" alt="pastedGraphic\_96.png">  </p>
+<p>点保存，会跳出JPEG选项对话框，品质设为10，确定。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu8hl8wfj205g04nglv.jpg" alt="pastedGraphic\_97.png">  </p>
+<p>由于和原始文件是不同文件名，所以生成的JPEG文件不会覆盖原图，会在PSD文档的前面出现。<img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub1d2hmj203c02cwem.jpg" alt="pastedGraphic\_98.png">（保留原文件是为了最后检查时方便比对）  </p>
+<p>依此五张五张把所有图翻完做完。  </p>
+<h2 id="【步骤五：封面】"><a href="#【步骤五：封面】" class="headerlink" title="【步骤五：封面】"></a>【步骤五：封面】</h2><p>LOGO的设计制作是单独的一门学问，在入门教程中依旧略过。在有LOGO的前提下，这里介绍一种极为偷懒且限制性较大的封面制作方法。  </p>
+<p>限制性在于它只适用于相对来说较新的刊物或现在连载中的刊物。那就是，用google搜索你的封面图，找到没有logo的原图，改成适当大小覆盖上去。再用【魔棒】【画笔】【蒙版】等工具把需要保留的地方擦出来，把中文logo贴在原位置上，加上制作者名单，完成……  </p>
+<p>只是要注意封面图和无logo原图基本上存在色差，所以擦的时候要特别小心，边缘处建议选择柔角画笔擦。  </p>
+<p>当然，在旧刊找不到无logo原图的情况下，你就只能认命补图了。  </p>
+<p>比如猩红蜘蛛01这一张…因为它完全不是纯色且蛛丝相当不规则（蛛丝也不是纯色）补得我要死要活的（所以每次说到补图都会拿它出来溜一圈【喂！  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9hk6sjj20d903y0x1.jpg" alt="pastedGraphic\_99.png">  </p>
+<p>先把logo和上面的字做好黏上去。这样你就能少补很多。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwub2pvsej208m030tap.jpg" alt="pastedGraphic\_100.png">  </p>
+<p>补图个人来说我比较偏好用【画笔】，但无可否认【图章】也是利用率相当高的工具，非常适合结构规则但材质不规则的补图。  </p>
+<p>一般来说我补图分三个图层。  </p>
+<p>最上面的图层用大小3~5号的硬角画笔，勾出要补的东西的轮廓线。这是一层（按住alt选取周围颜色）。  </p>
+<p>第二层依旧是硬角画笔，大小拉大至适当，在不断alt选取周围颜色的情况下画出基本的色块。  </p>
+<p>第三层则选择柔角画笔。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9x9qz9j203k03iaa2.jpg" alt="pastedGraphic\_101.png">在色块的交界处选取周围颜色仔细刷到看不出色块边缘的痕迹为止。  </p>
+<p>补图完成。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9qih5lj20ao03hdii.jpg" alt="pastedGraphic\_102.png">  </p>
+<p>硬角画笔色块与柔角画笔使用后的示例：  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuaytbqyj207v03hjtl.jpg" alt="pastedGraphic\_103.png">（出自AvX02）  </p>
+<p>这张图由于没有轮廓线，所以第一层省去。  </p>
+<p>先把文字叠上去。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwu9zj4udj208103oq5b.jpg" alt="pastedGraphic\_104.png">  </p>
+<p>新建图层开始涂。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwua8x84tj20ao04vdjk.jpg" alt="pastedGraphic\_105.png">  </p>
+<p>得到色块层。  </p>
+<p>再新建文件柔角涂。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc90tsij20b1057n1c.jpg" alt="pastedGraphic\_106.png">  </p>
+<p>变得柔和许多，不仔细看就看不出了（这种大面积补图总有纰漏，只可远观咳咳）。  </p>
+<p>于是封面做完以后依旧存储为JPEG文档。现在我们得到了所有的汉化图。  </p>
+<h2 id="【步骤六：装包】"><a href="#【步骤六：装包】" class="headerlink" title="【步骤六：装包】"></a>【步骤六：装包】</h2><ol>
+<li><p>新建文件夹，命名，我的习惯是<code>[中文名_话数][英文名_话数][制作者名]</code>。  </p>
+</li>
+<li><p>在文件夹中点击右键-分组依据-类型（因为照默认按文件名排列是PSD文档和JPEG文档混在一起的）  </p>
+</li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuate2isj205v04h0ts.jpg" alt="pastedGraphic\_107.png">  </p>
+<p>会出现下图这种原图和汉化后图泾渭分明的情况。  </p>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuc3odvqj20bj03agnk.jpg" alt="pastedGraphic\_108.png">  </p>
+<p>自你汉化过的封面起按住<code>Shift</code>选到最后一页。拖进你建好的文件夹里。在拖的时候顺便看一下总页数对不对（漏页什么的真的伤不起啊）。别急还没有结束。  </p>
+<h2 id="【步骤七：检查及修改】"><a href="#【步骤七：检查及修改】" class="headerlink" title="【步骤七：检查及修改】"></a>【步骤七：检查及修改】</h2><ol>
+<li>点击你的文件夹地址栏，<code>Ctrl</code>+c复制。  </li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuahu70tj208k00n3yi.jpg" alt="pastedGraphic\_109.png">  </p>
+<ol start="2">
+<li><p>新打开一个文件夹，点击地址栏，<code>Ctrl</code>+v黏贴，回车。得到打开的两个相同文件夹。  </p>
+</li>
+<li><p>选择第一个文件夹，点进你完成的汉化文件夹，双击打开第一张图片，放到显示屏左边。  </p>
+</li>
+<li><p>选择第二个文件夹，双击打开原图第一张图片，放到显示屏右边。  </p>
+</li>
+</ol>
+<p><img src="https://wx1.sinaimg.cn/large/6a9fdecaly1frwuadsdd1j209q05e41l.jpg" alt="pastedGraphic\_110.png">  </p>
+<p>开始检查。  </p>
+<p>检查要点：  </p>
+<ul>
+<li><p>a.镶字方面：断字。居中。加粗斜。涂白图层不透明度。及有没有遗漏的镶字补图。  </p>
+</li>
+<li><p>b.翻译方面：全文通读一遍还有没有别扭生硬的地方，如果有现在是最后的修改机会，检查错别字。  </p>
+</li>
+</ul>
+<p>如果有要修改的地方选择第二个文件夹直接能点到PSD文档修改，修改完<code>Ctrl</code>+<code>Shift</code>+<code>S</code>存储为JPEG文档可直接存储于汉化文件夹，亦可先存于原文件夹全部修改好以后一起拖过去。  </p>
+<h2 id="【完成及上传】"><a href="#【完成及上传】" class="headerlink" title="【完成及上传】"></a>【完成及上传】</h2><p>在检查及修改步骤完成以后，关闭PS，关闭第一个文件夹。压缩你的汉化文件夹得到压缩包。上传。发布。  </p>
+<p>恭喜你看完了这个又长又不知所云的教程~  </p>
+<p>还有很多在这个教程中没有写到的地方，如果碰到什么问题请敲我。新浪围脖 @洌月 ，私信与圈都欢迎哦~（虽然出没时间比较诡异，如果一时没有回复请相信这货绝壁在睡觉，是的，白天也是）</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/post/comic/interview/tom-taylor-leaving-injustice/">
+                    【编剧Tom Taylor离开不义联盟】【脸书声明翻译】
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/post/other/comic-book-lettering-comicraft-way/">
+                    Comic Book Lettering The Comicraft Way
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#【前言】"><span class="toc-text">【前言】</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#【步骤一：图源】"><span class="toc-text">【步骤一：图源】</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#连载中新刊"><span class="toc-text">*连载中新刊</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#完结旧刊"><span class="toc-text">* 完结旧刊</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#【步骤二：调图】"><span class="toc-text">【步骤二：调图】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#【步骤三：涂白与前期处理】"><span class="toc-text">【步骤三：涂白与前期处理】</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#画笔工具。"><span class="toc-text">* 画笔工具。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#索套工具"><span class="toc-text">* 索套工具</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#椭圆选框工具"><span class="toc-text">* 椭圆选框工具</span></a></li></ol></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#【步骤四：翻译与镶字】"><span class="toc-text">【步骤四：翻译与镶字】</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#行距"><span class="toc-text">* 行距</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字体"><span class="toc-text">* 字体</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-基本字体。"><span class="toc-text">1. 基本字体。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-独白框"><span class="toc-text">2. 独白框</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-地点、时间等"><span class="toc-text">3. 地点、时间等</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#断字"><span class="toc-text">* 断字</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#要居中。"><span class="toc-text">* 要居中。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#加强语气的超格镶字"><span class="toc-text">* 加强语气的超格镶字</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注释"><span class="toc-text">* 注释</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#拟声词"><span class="toc-text">* 拟声词</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#【步骤五：封面】"><span class="toc-text">【步骤五：封面】</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#【步骤六：装包】"><span class="toc-text">【步骤六：装包】</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#【步骤七：检查及修改】"><span class="toc-text">【步骤七：检查及修改】</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#【完成及上传】"><span class="toc-text">【完成及上传】</span></a></li>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-6 i,
+        .toc-level-6 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录" title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+        if ($(".left-col").is(":hidden")) {
+          $("#tocButton").attr("value", yiliaConfig.toc[1]);
+        }
+    </script>
+
+
+
+
+
+    
+      	<section id="comments" style="margin: 2em; padding: 2em; background: rgba(255, 255, 255, 0.5)">
+    <div id="vcomment" class="comment"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    <script>
+      new Valine({
+        el: '#vcomment',
+        notify: 'false',
+        verify: 'false',
+        app_id: "uNChvK50WHVnvV71K0J2ClCm-gzGzoHsz",
+        app_key: "Q86kXJvREzt2OB3oKTg6pGY0",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        avatar: "mm"
+      });
+    </script>
+</section>
+	
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/post/comic/interview/tom-taylor-leaving-injustice/" title="上一篇: 【编剧Tom Taylor离开不义联盟】【脸书声明翻译】">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/post/other/comic-book-lettering-comicraft-way/" title="下一篇: Comic Book Lettering The Comicraft Way">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/post/other/qq-group-announcement-translation-tool/">【鸽子汉化组】【招新】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/comixology/the-stone-king/issue-2/">【石王】【02】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/valine-comment/">Valine评论</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/comixology/the-stone-king/issue-1/">【石王】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-5/">【不羁灵途】【05】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/exorsisters/issue-2/">【汉化】【驱魔姐妹】【02】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-4/">【炮火佳丽】【04】【战斗1/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-4/">【哥谭车库】【04】【泥之峡谷】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-3/">【哥谭车库】【03】【牛刀初试】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/exorsisters/issue-1/">【汉化】【驱魔姐妹】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/qq-group-announcement-translation-tool/">【美漫自动汉化工具群宣】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/naomi/issue-1/">【汉化】【娜奥米】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/auto-lettering-tool/">【美漫汉化工具】【自动填字过程】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/thoughts-on-whiten-tool/">【美漫汉化工具】想做一个自动涂白器</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/comichron-sales-downloader/">【comichron历史销量下载器 v1.0 by 墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/app/mac/simple-comic-localization/">【Mac漫画阅读器】【Simple Comic 1.7.1 汉化版】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-72/">【生肉】【不义联盟2】【72】【再见】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-vs-masters-of-the-universe/issue-2/">【生肉】【不义联盟VS宇宙的巨人希曼】【02】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-71/">【生肉】【不义联盟2】【71】【干活】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-70/">【生肉】【不义联盟2】【70】【美好结局】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-69/">【生肉】【不义联盟2】【69】【爱与控心】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/code/python/bulk-download-worldwidetorrents-torrents/">【批量下载worldwidetorrents种子】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-68/">【生肉】【不义联盟2】【68】【和平会谈】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-vs-masters-of-the-universe/issue-1/">【生肉】【不义联盟VS宇宙的巨人希曼】【01】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-67/">【生肉】【不义联盟2】【67】【回到地球】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-66/">【生肉】【不义联盟2】【66】【最后一站】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/sales/superman-action-comics-sales/">【超人动作漫画销量】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/sales/superman-sales/">【超人销量】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/sales/batman-sales/">【蝙蝠侠销量】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-easy-charts-in-hexo/">在Hexo博客中使用easy-charts来画图</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/image/unnatural/issue-1/">【生肉】【不自然】【01】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-echarts-in-hexo/">在Hexo博客中使用ECharts来画图</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-65/">【生肉】【不义联盟2】【65】【布莱尼亚克】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-plantuml-in-hexo/">在Hexo博客中使用PlantUML来画UML</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-64/">【生肉】【不义联盟2】【64】【战争】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-63/">【生肉】【不义联盟2】【63】【暴狼不该得到灯戒】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-music-in-hexo/">在Hexo博客中插入音乐</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-theme-yelee-config/">Hexo博客Yelee主题配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-62/">【生肉】【不义联盟2】【62】【急需招兵买马】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-package-config/">Hexo博客package配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-theme-next-config/">Hexo博客NexT主题配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-2/issue-61/">【生肉】【不义联盟2】【61】【战争伤亡】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-site-config/">Hexo博客站点配置</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hexo-add-sequence/">为 Hexo 增加时序图解析功能</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-flowchart-in-hexo/">在Hexo博客中插入流程图的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-sequence-in-hexo/">在Hexo博客中插入时序图的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-mathjax-in-hexo/">在Hexo博客中插入Mathjax公式的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/markdown/welcome-to-stackedit/">Welcome to StackEdit</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-note-tag-in-hexo/">在Hexo博客中插入Note提示块标签的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/blog/alicewish/update-20180528/">【非名居】【功能更新】【20180528】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-bilibili-video-in-hexo/">在Hexo博客中插入bilibili视频的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/embed-youtube-video-in-hexo/">在Hexo博客中插入Youtube视频的方式</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/markdown/welcome-to-cmd-markdown/">欢迎使用 Cmd Markdown 编辑阅读器</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/blog/alicewish/update-20180414/">【非名居】【功能更新】【20180414】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/lizi-lake/无病呻吟/">无病呻吟</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-2/issue-1/">【不义联盟2】【01】【两颗飞速的子弹-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-7/">墨问非名-汉化教程7——【6分钟带你了解汉化】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/dorisdc/injustice-sin-of-love/">Injustice：The Sin of Love（爱之罪，PWP）</a></li><li class="post-list-item"><a class="post-list-link" href="/post/writing/hexo/front-matter/">Front-matter</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-2/">【哥谭车库】【02】【始于希望】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-city-garage/issue-1/">【哥谭车库】【01】【真实世界】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending-side-story-twelve-years/">另一种结局(十二年番外)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/private/busmhr-4490/su18-econ-4400-elem-econometrics-11376/">SU18 ECON 4400 - Elem Econometrics (11376)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/blog/alicewish/update-20180212/">【非名居】【功能更新】【20180212】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-6/">墨问非名-汉化教程6——自动填字脚本</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending-side-story-main/">另一种结局(主线番外)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending-side-story-seven-days/">另一种结局(七日番外)</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-ground-zero/issue-3/">【不义联盟-原爆点】【03】【副手们-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/secretbutler/another-ending/">【超蝠同人(不义AU)】另一种结局</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/linglinger/labyrinth/">The Labyrinth 迷宫</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-ground-zero/issue-2/">【不义联盟-原爆点】【02】【一切糟糕都将终结-第2部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-ground-zero/issue-1/">【不义联盟-原爆点】【01】【一切糟糕都将终结-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dark-horse/heart-in-a-box/issue-3/">【黑马】【盒中之心】【03】【墨问非名&Shynola】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-40/">【不义联盟-第五年】【40】【真正的正义】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-39/">【不义联盟-第五年】【39】【最后一搏】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-38/">【不义联盟-第五年】【38】【乐子】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-37/">【不义联盟-第五年】【37】【一号地球】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-36/">【不义联盟-第五年】【36】【自杀任务】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-35/">【不义联盟-第五年】【35】【计划】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-34/">【不义联盟-第五年】【34】【看不见的真相】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-1/">【究极铁人】【01】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-2/">【究极铁人】【02】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-3/">【究极铁人】【03】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-4/">【究极铁人】【04】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-5/">【究极铁人】【05】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-6/">【究极铁人】【06】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-7/">【究极铁人】【07】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-8/">【究极铁人】【08】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/marvel/superior-iron-man/issue-9/">【究极铁人】【09】【斯塔克的截然不同】【Mi汉化组】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-33/">【不义联盟-第五年】【33】【确切罪证】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-32/">【不义联盟-第五年】【32】【一夫当关】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-31/">【不义联盟-第五年】【31】【精确打击】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-30/">【不义联盟-第五年】【30】【承诺】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-29/">【不义联盟-第五年】【29】【王座】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-ground-zero/issue-3/">【生肉】【不义联盟-原爆点】【03】【副手们-第1部分】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-ground-zero/issue-2/">【生肉】【不义联盟-原爆点】【02】【一切糟糕都将终结-第2部分】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-28/">【不义联盟-第五年】【28】【抉择】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-8/">【喋血萝莉】【08】【圣所】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-ground-zero/issue-1/">【生肉】【不义联盟-原爆点】【01】【一切糟糕都将终结-第1部分】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-27/">【不义联盟-第五年】【27】【巴里】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-39/">【生肉】【不义联盟-第五年】【39】【最后一搏】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-26/">【不义联盟-第五年】【26】【选择-第2部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-7/">【喋血萝莉】【07】【熟识的恶魔】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-38/">【生肉】【不义联盟-第五年】【38】【乐子】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-6/">【喋血萝莉】【06】【天启】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-37/">【生肉】【不义联盟-第五年】【37】【一号地球】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-5/">【喋血萝莉】【05】【假先知】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-4/">【喋血萝莉】【04】【血狂】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-3/">【喋血萝莉】【03】【出殡日】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-2/">【喋血萝莉】【02】【蜕变】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/action-lab/tomboy/issue-1/">【喋血萝莉】【01】【噩耗】【阿兽】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-36/">【生肉】【不义联盟-第五年】【36】【自杀任务】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-35/">【生肉】【不义联盟-第五年】【35】【计划】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-34/">【生肉】【不义联盟-第五年】【34】【看不见的真相】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-33/">【生肉】【不义联盟-第五年】【33】【确切罪证】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/dream-scroll/">梦境卷轴</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/how-dreams-start/">梦境开始之处</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/comic-sites-collect/">漫画资源站合辑</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-32/">【生肉】【不义联盟-第五年】【32】【一夫当关】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-25/">【不义联盟-第五年】【25】【选择-第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-24/">【不义联盟-第五年】【24】【刀锋边缘】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-23/">【不义联盟-第五年】【23】【生日】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-31/">【生肉】【不义联盟-第五年】【31】【精确打击】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/anywaywillgo-share/">【anywaywillgo度盘下载】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/mo-wen-fei-ming-share/">【墨问非名度盘下载】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/resource/site-instruction/">【资源】【墨问非名、anywaywillgo度盘合集】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/mi/mi-lettering-tutorial-2-3/">电解川-Mi汉化组填字教程2.3</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-30/">【生肉】【不义联盟-第五年】【30】【承诺】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-3/">【2号地球：会社】【03】【慰藉】【SLOMO&蓝披头士】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/flypy/">【输入法】【小鹤双拼】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/gotham-academy/issue-5/">【哥谭学院】【05】【保留最后一支舞】【SLOMO&MDC】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-22/">【不义联盟-第五年】【22】【怒气汹汹】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/comic-profits-sales/">【美漫盈利和销量关系】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/explained/dc/injustice-gods-among-us/year-five/issue-29/">【生肉】【不义联盟-第五年】【29】【王座】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/wango/wango-slomo-publish-steps/">Wango-SLOMO漫画发布流程</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/tim-seeley-on-weibo/">Tim Seeley来微博了</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/alicewish/after-story/">【DC】【不义联盟】【After Story后日谈】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-5/">墨问非名-汉化教程5——自动分页填字</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/interview/injustice-interview-alfred/">不义联盟在阿福死亡情节后的访谈</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dark-horse/heart-in-a-box/issue-2/">【黑马】【盒中之心】【02】【墨问非名&酿青椒】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-18/">【不义联盟-第五年】【18】【友谊的小船说翻就翻】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-19/">【不义联盟-第五年】【19】【自食其果】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-3/">【炮火佳丽】【03】【参军3/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-17/">【不义联盟-第五年】【17】【凡人与力量】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/fanfic/alicewish/talk-to-me/">【DC】【不义联盟】【Talk to Me言者无心】第1章【龙与虎】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-4/">墨问非名-汉化教程4——快速填字演示</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-16/">【不义联盟-第五年】【16】【革命者第2部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-15/">【不义联盟-第五年】【15】【革命者第1部分】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-14/">【不义联盟-第五年】【14】【投下阴影】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/batman-v-superman-injustice/">BvS&不义联盟</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-13/">【不义联盟-第五年】【13】【选边站】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-4/">fhey-修图教程（四）简单字效的制作</a></li><li class="post-list-item"><a class="post-list-link" href="/post/app/mac/mac-essentials-eudict/">欧路词典的OCR取词功能</a></li><li class="post-list-item"><a class="post-list-link" href="/post/app/mac/mac-essentials-simple-comic/">Simple Comic——Mac看漫画必备</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/backup-comic/">墨问非名-美漫图源制作</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-12/">【不义联盟-第五年】【12】【三向混战】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-11/">【不义联盟-第五年】【11】【非常嫌犯】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/injustice-gods-among-us/year-five/issue-10/">【不义联盟-第五年】【10】【比扎罗超人奇事】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-3/">fhey-修图教程（三）3D字的制作</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-2/">【炮火佳丽】【02】【参军2/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-3/">墨问非名-汉化教程3——一分钟填字法</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-2/">【2号地球：会社】【02】【守护天使】【蓝披头士&SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-3/">【不羁灵途】【03】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/bombshells/issue-1/">【炮火佳丽】【01】【参军1/3】【SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-2/">fhey-修图教程（二）内容识别</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/fhey/fhey-tutorial-1/">fhey-修图教程（一）常用工具</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-4/">【不羁灵途】【04】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-1/">【2号地球：会社】【01】【星球陷落】【蓝披头士&SLOMO】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/savior/issue-2/">【救世主】【02】【SLOMO&海洋】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dark-horse/heart-in-a-box/issue-1/">【黑马】【盒中之心】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-2/">墨问非名-汉化教程2——绝对居中</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-1-example/">墨问非名-汉化教程1.1——批量法涂渐变实例</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/alicewish/alicewish-tutorial-1/">墨问非名-汉化教程1——批量涂渐变</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/dc/earth-2-society/issue-0/">【2号地球：会社】【00】【先睹为快】【蓝披头士】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/savior/issue-1/">【救世主】【01】【SLOMO&海洋】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-2/">【不羁灵途】【02】【墨问非名&Wango】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/translated/image/wayward/issue-1/">【不羁灵途】【01】【墨问非名】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/interview/tom-taylor-returns-to-injustice-2/">【Tom Taylor回归不义联盟2】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/comic/interview/tom-taylor-leaving-injustice/">【编剧Tom Taylor离开不义联盟】【脸书声明翻译】</a></li><li class="post-list-item"><a class="post-list-link" href="/post/tutorial/lieyue/lieyue-tutorial-1/">洌月-美漫汉化入门1.0</a></li><li class="post-list-item"><a class="post-list-link" href="/post/other/comic-book-lettering-comicraft-way/">Comic Book Lettering The Comicraft Way</a></li><li class="post-list-item"><a class="post-list-link" href="/post/note/slash/slash-glossary/">西方同人术语汇集(Slash Glossary)</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2015-2019 墨问非名
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_uv" style="display:none">
+                        <span id="site-visit_uv" title="本站访客数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" style="display:none">
+                        <span id="site-visit_pv" title="本站总访问量">
+                            
+								<span>| </span>
+							
+							<i class="fa fa-eye animated infinite pulser" aria-hidden="true"></i>
+							<span id="busuanzi_value_site_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    <script type="application/javascript">
+      var hide = false, leftWidth = 400;
+      function hideLeftCol() {
+        if (hide) {
+          $(".left-col").width(leftWidth);
+          $(".left-col .intrude-less").css('display', '');
+          $("#tocButton").css('display', '');
+          ($('#switch-btn').css('display') === 'block' && $('#switch-area').css('display') === 'block') || $('#toc').slideDown(320);
+          $(".hide-left-col").css("left", leftWidth).html('<i class="fa fa-angle-double-left"></i>');
+          $(".mid-col").css("left", leftWidth)
+          $("#post-nav-button").css("left", leftWidth)
+          $("#post-nav-button > a:nth-child(2)").css("display", "block")
+          hide = false
+        } else {
+          $(".left-col").width(0);
+          $(".left-col .intrude-less").css('display', 'none');
+          $("#toc").css('display', 'none');
+          $("#tocButton").css('display', 'none');
+          $(".hide-left-col").css("left", 0).html('<i class="fa fa-angle-double-right"></i>');
+          $(".mid-col").css("left", 0)
+          $("#post-nav-button").css("left", 0)
+          $("#post-nav-button > a:nth-child(2)").css("display", "none")
+          if ($(".post-list").is(":visible")) {
+            $("#post-nav-button .fa-bars,#post-nav-button .fa-times").toggle();
+            $(".post-list").toggle();
+          }
+          hide = true
+        }
+      }
+      $(".hide-left-col").click(function() {
+        hideLeftCol()
+      });
+    </script>
+    
+    <script src="/js/GithubRepoWidget.js"></script>
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 6;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+             github: ".github-widget a", 
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+  </div>
+<script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1550481657402')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body>
+</html>
