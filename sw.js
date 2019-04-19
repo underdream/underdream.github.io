@@ -26,9 +26,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/post/other/comic-book-lettering-comicraft-way/');
 
-  precacheUrls.push('/post/other/tim-seeley-on-weibo/');
-
   precacheUrls.push('/post/other/comic-profits-sales/');
+
+  precacheUrls.push('/post/other/tim-seeley-on-weibo/');
 
   precacheUrls.push('/post/other/flypy/');
 
