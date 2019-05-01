@@ -261,13 +261,6 @@
     </url>
 
     <url>
-        <loc>https://underdream.github.io/tags/dc/</loc>
-        <lastmod>2019-02-09T17:23:14.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://underdream.github.io/tags/bombshells/</loc>
         <lastmod>2019-02-09T17:23:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -312,6 +305,20 @@
     <url>
         <loc>https://underdream.github.io/tags/the-stone-king/</loc>
         <lastmod>2019-02-12T17:23:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://underdream.github.io/tags/dc/</loc>
+        <lastmod>2019-05-01T16:51:03.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://underdream.github.io/tags/dceased/</loc>
+        <lastmod>2019-05-01T16:51:03.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
