@@ -30,9 +30,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/post/other/tim-seeley-on-weibo/');
 
-  precacheUrls.push('/post/other/flypy/');
-
   precacheUrls.push('/post/other/comic-profits-sales/');
+
+  precacheUrls.push('/post/other/flypy/');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":5};
