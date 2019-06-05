@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://underdream.github.io/"/>
-  <updated>2019-05-01T16:51:03.000Z</updated>
+  <updated>2019-06-05T16:51:03.000Z</updated>
   <id>https://underdream.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【尸网】【02】【SLOMO】</title>
+    <link href="https://underdream.github.io/post/comic/translated/dc/dceased/issue-2/"/>
+    <id>https://underdream.github.io/post/comic/translated/dc/dceased/issue-2/</id>
+    <published>2019-06-05T16:51:03.000Z</published>
+    <updated>2019-06-05T16:51:03.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每分钟都有数百万人死亡。 英雄和恶棍同样都在倒下。 正义联盟可以联合起来找到阻止死亡蔓延的方法吗？ 他们能拯救人类免于灭绝吗？ 甚至，他们可以自救吗？ 生存的关键可能取决于世界最佳英雄之一的最后时刻……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/alicewish/image/master/%5BDC%5DDCeased-%E5%B0%B8%E7%BD%91-02%5BSLOMO%5D/DCeased%20%282019-%29%20002-000%20%E6%8B%B7%E8%B4%9D.jpg&quot; alt&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Comic" scheme="https://underdream.github.io/categories/comic/"/>
+    
+      <category term="Translated" scheme="https://underdream.github.io/categories/comic/translated/"/>
+    
+      <category term="DC" scheme="https://underdream.github.io/categories/comic/translated/dc/"/>
+    
+      <category term="DCeased" scheme="https://underdream.github.io/categories/comic/translated/dc/dceased/"/>
+    
+    
+      <category term="DC" scheme="https://underdream.github.io/tags/dc/"/>
+    
+      <category term="DCeased" scheme="https://underdream.github.io/tags/dceased/"/>
+    
+  </entry>
   
   <entry>
     <title>【尸网】【01】【SLOMO】</title>
@@ -560,36 +589,6 @@
       <category term="DC" scheme="https://underdream.github.io/tags/dc/"/>
     
       <category term="Injustice Vs. Masters of the Universe" scheme="https://underdream.github.io/tags/injustice-vs-masters-of-the-universe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【生肉】【不义联盟2】【71】【干活】</title>
-    <link href="https://underdream.github.io/post/comic/explained/dc/injustice-2/issue-71/"/>
-    <id>https://underdream.github.io/post/comic/explained/dc/injustice-2/issue-71/</id>
-    <published>2018-08-14T16:51:03.000Z</published>
-    <updated>2018-08-14T16:51:03.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;In the White House, President Jefferson Pierce has to make a crucial decision. Meanwhile, in Gorilla City, Grodd makes his move.&lt;/p&gt;
-&lt;p&gt;在白宫，总统杰弗森·皮尔斯必须做出一个至关重要的决定。 与此同时，在猩猩城，格鲁德采取了他的行动。&lt;/p&gt;
-&lt;p&gt;&lt;img alt src=&quot;https://ww2.sinaimg.cn/large/6a9fdecaly1fuaczemzrkj21j816gtnx.jpg&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Comic" scheme="https://underdream.github.io/categories/comic/"/>
-    
-      <category term="Explained" scheme="https://underdream.github.io/categories/comic/explained/"/>
-    
-      <category term="DC" scheme="https://underdream.github.io/categories/comic/explained/dc/"/>
-    
-      <category term="Injustice 2" scheme="https://underdream.github.io/categories/comic/explained/dc/injustice-2/"/>
-    
-    
-      <category term="DC" scheme="https://underdream.github.io/tags/dc/"/>
-    
-      <category term="Injustice 2" scheme="https://underdream.github.io/tags/injustice-2/"/>
     
   </entry>
   
