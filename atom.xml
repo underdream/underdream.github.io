@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://underdream.github.io/"/>
-  <updated>2019-06-05T16:51:03.000Z</updated>
+  <updated>2019-07-03T16:51:03.000Z</updated>
   <id>https://underdream.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【尸网】【03】【SLOMO】</title>
+    <link href="https://underdream.github.io/post/comic/translated/dc/dceased/issue-3/"/>
+    <id>https://underdream.github.io/post/comic/translated/dc/dceased/issue-3/</id>
+    <published>2019-07-03T16:51:03.000Z</published>
+    <updated>2019-07-03T16:51:03.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;英雄，恶棍和神灵纷纷倒下。 城市已经崩溃。 这种病毒的威胁远远延伸到海之下甚至特弥斯库拉。拯救地球的竞速已开始！ 正义联盟中幸存的成员已经了解了病毒传播的秘密，但现在已经来不及阻止它了吗？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/alicewish/image/master/%5BDC%5DDCeased-%E5%B0%B8%E7%BD%91-03%5BSLOMO%5D/PAGE_000%20%E6%8B%B7%E8%B4%9D.jpg&quot; alt&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Comic" scheme="https://underdream.github.io/categories/comic/"/>
+    
+      <category term="Translated" scheme="https://underdream.github.io/categories/comic/translated/"/>
+    
+      <category term="DC" scheme="https://underdream.github.io/categories/comic/translated/dc/"/>
+    
+      <category term="DCeased" scheme="https://underdream.github.io/categories/comic/translated/dc/dceased/"/>
+    
+    
+      <category term="DC" scheme="https://underdream.github.io/tags/dc/"/>
+    
+      <category term="DCeased" scheme="https://underdream.github.io/tags/dceased/"/>
+    
+  </entry>
   
   <entry>
     <title>【尸网】【02】【SLOMO】</title>
@@ -560,35 +589,6 @@
       <category term="DC" scheme="https://underdream.github.io/tags/dc/"/>
     
       <category term="Injustice 2" scheme="https://underdream.github.io/tags/injustice-2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【生肉】【不义联盟VS宇宙的巨人希曼】【02】</title>
-    <link href="https://underdream.github.io/post/comic/explained/dc/injustice-vs-masters-of-the-universe/issue-2/"/>
-    <id>https://underdream.github.io/post/comic/explained/dc/injustice-vs-masters-of-the-universe/issue-2/</id>
-    <published>2018-08-15T16:51:03.000Z</published>
-    <updated>2018-08-15T16:51:03.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;接不义2超人胜利结局。&lt;/p&gt;
-&lt;p&gt;&lt;img alt src=&quot;https://ww2.sinaimg.cn/large/6a9fdecaly1fub1vpvzgxj21j72cwb29.jpg&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Comic" scheme="https://underdream.github.io/categories/comic/"/>
-    
-      <category term="Explained" scheme="https://underdream.github.io/categories/comic/explained/"/>
-    
-      <category term="DC" scheme="https://underdream.github.io/categories/comic/explained/dc/"/>
-    
-      <category term="Injustice Vs. Masters of the Universe" scheme="https://underdream.github.io/categories/comic/explained/dc/injustice-vs-masters-of-the-universe/"/>
-    
-    
-      <category term="DC" scheme="https://underdream.github.io/tags/dc/"/>
-    
-      <category term="Injustice Vs. Masters of the Universe" scheme="https://underdream.github.io/tags/injustice-vs-masters-of-the-universe/"/>
     
   </entry>
   
